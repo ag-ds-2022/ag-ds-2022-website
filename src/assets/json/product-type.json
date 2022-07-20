@@ -64,10 +64,5 @@
                 "inStock": true
             }
         ]
-    },
-    "Test": {
-        "img": "../images/banner-image/33.jpg",
-        "banner-image": "../images/banner-image/diamond-heading.jpg",
-        "list": []
     }
 }

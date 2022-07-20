@@ -1,127 +1,58 @@
-import React from 'react'
+import React from 'react';
+import BestSellersProduct from '../assets/json/best-sellers.json';
 
 function BestSellers() {
     return (
         <>
-            <section className="best-sells-area mb-30px">
-                <div className="container">
+            {
+                (BestSellersProduct && BestSellersProduct?.bestSeller && BestSellersProduct?.bestSeller?.length) ?
+                    <section className="best-sells-area mb-30px">
+                        <div className="container">
 
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="section-title" style={{ textAlign: 'center' }}>
-                                <h2>5 Best Sellers</h2>
-                                <p>Till now top 5 high sellers products</p>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <div className="section-title py-3" style={{ textAlign: 'center' }}>
+                                        <h2>Best Sellers</h2>
+                                        <p>Till now top high sellers products</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="shop-bottom-area mt-35">
+                                <div className="tab-content jump">
+                                    <div id="shop-1" className="tab-pane active">
+                                        <div className="row">
+                                            {
+                                                BestSellersProduct.bestSeller.map((val, index) => {
+                                                    return (
+                                                        <div className="col-xl-3 col-md-4 col-sm-6" key={index}>
+                                                            <article className="list-product">
+                                                                <div className="img-block">
+                                                                    <img className="first-img" src={val.img} alt="Wheat" />
+                                                                </div>
+                                                                <div className="product-decs">
+                                                                    <h2 className="product-link">{val.name}</h2>
+                                                                    <ul className="product-flag">
+                                                                        {(val.inStock) ? <li className="new">In Stock</li> : <li className="out-of-stock">Out of Stock</li>}
+                                                                    </ul>
+                                                                    <hr />
+                                                                    <p className="inner-link"><span>{val.type}</span></p>
+                                                                </div>
+                                                            </article>
+                                                        </div>
+                                                    )
+                                                })
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    :
+                    <></>
 
+            }
 
-                    <div className="best-sell-slider owl-carousel owl-nav-style">
-
-
-                        <article className="list-product">
-                            <div className="img-block">
-                                <a href="https://sarvopari.in/Contact.html" className="thumbnail">
-                                    <img className="first-img" src="https://sarvopari.in/assets/images/product-image/organic/Aniseed.jpg" alt="" />
-                                </a>
-                                <ul className="product-flag">
-                                    <li className="new">In stock</li>
-                                </ul>
-                                <div className="quick-view">
-                                    <a className="quick_view" href="index.html#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
-                                        <i className="ion-ios-search-strong"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="product-decs">
-                                <a className="inner-link" href="https://sarvopari.in/Contact.html"><span>STUDIO DESIGN</span></a>
-                                <h2><a href="https://sarvopari.in/Contact.html" className="product-link">New Luxury Men's Slim Fit Shi...</a></h2>
-                            </div>
-                        </article>
-
-                        <article className="list-product">
-                            <div className="img-block">
-                                <a href="https://sarvopari.in/Contact.html" className="thumbnail">
-                                    <img className="first-img" src="https://sarvopari.in/assets/images/product-image/organic/product-10.jpg" alt="" />
-                                </a>
-                                <ul className="product-flag">
-                                    <li className="new">In stock</li>
-                                </ul>
-                                <div className="quick-view">
-                                    <a className="quick_view" href="index.html#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
-                                        <i className="ion-ios-search-strong"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="product-decs">
-                                <a className="inner-link" href="https://sarvopari.in/Contact.html"><span>STUDIO DESIGN</span></a>
-                                <h2><a href="https://sarvopari.in/Contact.html" className="product-link">New Luxury Men's Slim Fit Shi...</a></h2>
-                            </div>
-                        </article>
-
-                        <article className="list-product">
-                            <div className="img-block">
-                                <a href="https://sarvopari.in/Contact.html" className="thumbnail">
-                                    <img className="first-img" src="https://sarvopari.in/assets/images/product-image/organic/product-10.jpg" alt="" />
-                                </a>
-                                <ul className="product-flag">
-                                    <li className="new">In stock</li>
-                                </ul>
-                                <div className="quick-view">
-                                    <a className="quick_view" href="index.html#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
-                                        <i className="ion-ios-search-strong"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="product-decs">
-                                <a className="inner-link" href="https://sarvopari.in/Contact.html"><span>STUDIO DESIGN</span></a>
-                                <h2><a href="https://sarvopari.in/Contact.html" className="product-link">New Luxury Men's Slim Fit Shi...</a></h2>
-                            </div>
-                        </article>
-
-                        <article className="list-product">
-                            <div className="img-block">
-                                <a href="https://sarvopari.in/Contact.html" className="thumbnail">
-                                    <img className="first-img" src="https://sarvopari.in/assets/images/product-image/organic/product-10.jpg" alt="" />
-                                </a>
-                                <ul className="product-flag">
-                                    <li className="new">In stock</li>
-                                </ul>
-                                <div className="quick-view">
-                                    <a className="quick_view" href="index.html#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
-                                        <i className="ion-ios-search-strong"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="product-decs">
-                                <a className="inner-link" href="https://sarvopari.in/Contact.html"><span>STUDIO DESIGN</span></a>
-                                <h2><a href="https://sarvopari.in/Contact.html" className="product-link">New Luxury Men's Slim Fit Shi...</a></h2>
-                            </div>
-                        </article>
-
-                        <article className="list-product">
-                            <div className="img-block">
-                                <a href="https://sarvopari.in/Contact.html" className="thumbnail">
-                                    <img className="first-img" src="https://sarvopari.in/assets/images/product-image/organic/product-10.jpg" alt="" />
-                                </a>
-                                <ul className="product-flag">
-                                    <li className="new">In stock</li>
-                                </ul>
-                                <div className="quick-view">
-                                    <a className="quick_view" href="index.html#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#exampleModal">
-                                        <i className="ion-ios-search-strong"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="product-decs">
-                                <a className="inner-link" href="https://sarvopari.in/Contact.html"><span>STUDIO DESIGN</span></a>
-                                <h2><a href="https://sarvopari.in/Contact.html" className="product-link">New Luxury Men's Slim Fit Shi...</a></h2>
-                            </div>
-                        </article>
-                    </div>
-
-                </div>
-            </section>
 
 
         </>

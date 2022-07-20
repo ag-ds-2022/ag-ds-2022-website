@@ -10,7 +10,7 @@ function Home() {
             <Header />
             <OurProducts />
             <BestSellers />
-            <SupportingGroup />
+            {/* <SupportingGroup /> */}
         </div>
     )
 }

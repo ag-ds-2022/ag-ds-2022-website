@@ -109,11 +109,6 @@ function ProductList() {
                                                             <article className="list-product">
                                                                 <div className="img-block">
                                                                     <img className="first-img" src={val.img} alt="Wheat" />
-                                                                    <div className="quick-view">
-                                                                        <a className="quick_view" href="Grocery.html#" data-link-action="quickview" title="Quick view" data-toggle="modal" data-target="#wheatmodal">
-                                                                            <i className="ion-ios-search-strong"></i>
-                                                                        </a>
-                                                                    </div>
                                                                 </div>
                                                                 <div className="product-decs">
                                                                     <h2 className="product-link">{val.name}</h2>
@@ -136,18 +131,6 @@ function ProductList() {
                     </div>
                 </div>
             </div>
-            {/* <div className="pro-pagination-style text-center">
-                <ul>
-                    <li>
-                        <a className="prev" href="Grocery.html#"><i className="ion-ios-arrow-left"></i></a>
-                    </li>
-                    <li><a className="active" href="Grocery.html#">1</a></li>
-                    <li><a href="Grocery.html#">2</a></li>
-                    <li>
-                        <a className="next" href="Grocery.html#"><i className="ion-ios-arrow-right"></i></a>
-                    </li>
-                </ul>
-            </div> */}
         </>
     )
 }

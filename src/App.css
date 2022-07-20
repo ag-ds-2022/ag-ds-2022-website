@@ -126,7 +126,7 @@ a.nav-link:hover {
 
 @media only screen and (max-width: 992px) {
     .phone1 {
-        right: 150px !important;
+        left: 24px !important;
     }
 }
 
@@ -265,5 +265,16 @@ input.in-stock {
     margin-top: 5px;
     width: 15px;
     height: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    .dropdown{
+        top: 0px !important;
+        margin-top: 0px !important;
+    }
+}
+
+.list-product{
     cursor: pointer;
 }

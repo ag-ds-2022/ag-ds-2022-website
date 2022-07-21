@@ -24,7 +24,6 @@ function ProductList() {
     }
 
     const searchHandler = (value) => {
-        debugger;
         let tempData = { ...data }
         tempData.list = ProductType[product_name].list.filter((val) =>
             !inStock || val.inStock

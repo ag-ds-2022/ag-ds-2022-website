@@ -17,6 +17,12 @@
             "type": "PULSES AND CRADLES",
             "name": "Red Gram",
             "inStock": true
+        },
+        {
+            "img": "../images/banner-image/32.jpg",
+            "type": "PULSES AND CRADLES",
+            "name": "Rise",
+            "inStock": false
         }
     ]
 }

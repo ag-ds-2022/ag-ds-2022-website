@@ -2,7 +2,7 @@ import './App.css';
 import './assets/css/vendor/plugins.min.css';
 import './assets/css/style.min.css';
 import './assets/css/responsive.min.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
@@ -19,16 +19,14 @@ function App() {
   return (
     <div className="App">
       <div id='main'>
-        <BrowserRouter>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/products/:product_name" element={<ProductList />} />
-            <Route path="/about" element={<AboutUs />} />
-            <Route path="/contact" element={<ContactUs />} />
-          </Routes>
-          <Footer />
-        </BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/products/:product_name" element={<ProductList />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<ContactUs />} />
+        </Routes>
+        <Footer />
       </div>
     </div>
   );

@@ -54,17 +54,21 @@ function ProductList() {
 
     return (
         <>
-            <div className="banner-area-2" style={{ marginTop: "0px" }}>
-                <div>
-                    <div className="">
-                        <div className="col-md-12">
-                            <div className="banner-inner">
-                                <img src="images/banner-image/cloth-heading.jpg" alt="" />
+            {
+                data && data?.bannerImage && (
+                    <div className="banner-area-2" style={{ marginTop: "0px" }}>
+                        <div>
+                            <div className="">
+                                <div className="col-md-12">
+                                    <div className="banner-inner">
+                                        <img src={data.bannerImage} alt="" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                )
+            }
 
             <div className="container">
                 <div className="row">

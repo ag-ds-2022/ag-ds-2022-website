@@ -1,7 +1,7 @@
 {
     "Grocery": {
         "img": "../images/banner-image/31.jpg",
-        "banner-image": "../images/banner-image/cloth-heading.jpg",
+        "bannerImage": "",
         "list": [
             {
                 "img": "../images/banner-image/31.jpg",
@@ -25,7 +25,7 @@
     },
     "Cloth": {
         "img": "../images/banner-image/31.jpg",
-        "banner-image": "../images/banner-image/cloth-heading.jpg",
+        "bannerImage": "../images/banner-image/cloth-heading.jpg",
         "list": [
             {
                 "img": "../images/banner-image/31.jpg",
@@ -49,7 +49,7 @@
     },
     "Diamond": {
         "img": "../images/banner-image/33.jpg",
-        "banner-image": "../images/banner-image/diamond-heading.jpg",
+        "bannerImage": "../images/banner-image/diamond-heading.jpg",
         "list": [
             {
                 "img": "../images/banner-image/31.jpg",

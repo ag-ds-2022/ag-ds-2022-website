@@ -22,10 +22,10 @@ function ContactUs() {
 
             <div className="contact-area mtb-60px">
                 <div className="container">
-                    <div className="contact-map mb-10">
+                    {/* <div className="contact-map mb-10">
                         <div id="map">
                         </div>
-                    </div>
+                    </div> */}
                     <div className="custom-row-2">
                         <div className="col-lg-4 col-md-5">
                             <div className="contact-info-wrap">

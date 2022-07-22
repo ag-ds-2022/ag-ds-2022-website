@@ -9,7 +9,7 @@ function AboutUs() {
                     <div className="">
                         <div className="col-md-12">
                             <div className="banner-inner">
-                                <img src="images/banner-image/About-heading.jpg" alt="" />
+                                <img src={process.env.PUBLIC_URL + "/images/banner-image/About-heading.jpg"} alt="" />
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@ function AboutUs() {
                     <div className="row">
                         <div className="col-lg-6 mb-res-sm-50px">
                             <div className="about-left-image">
-                                <img src="images/banner-image/about.png" alt="" className="img-responsive" />
+                                <img src={process.env.PUBLIC_URL + "/images/banner-image/about.png"} alt="" className="img-responsive" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -65,12 +65,12 @@ function AboutUs() {
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-res-xs-30">
                             <div className="banner-wrapper banner-box">
-                                <img src="images/banner-image/mission.jpg" alt="" />
+                                <img src={process.env.PUBLIC_URL + "/images/banner-image/mission.jpg"} alt="" />
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div className="banner-wrapper banner-box">
-                                <img src="images/banner-image/vision.jpg" alt="" />
+                                <img src={process.env.PUBLIC_URL + "/images/banner-image/vision.jpg"} alt="" />
                             </div>
                         </div>
                     </div>

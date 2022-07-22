@@ -24,7 +24,9 @@ function OurProducts() {
                                     return (
                                         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-res-xs-30 mb-res-sm-30" key={index}>
                                             <div className="banner-wrapper banner-box">
-                                                <Link to={`/products/${val[0]}`}><img src={val[1].img} alt="" /></Link>
+                                                <Link to={`/products/${val[0]}`}>
+                                                    <img src={process.env.PUBLIC_URL + val[1].img} alt="" />
+                                                </Link>
                                                 <div className="desc-listcategoreis">
                                                     <div className="name_categories">
                                                         <h4>{val[0]}</h4>

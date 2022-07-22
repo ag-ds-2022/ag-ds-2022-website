@@ -27,7 +27,7 @@ function BestSellers() {
                                                         <div className="col-xl-3 col-md-4 col-sm-6" key={index}>
                                                             <article className="list-product">
                                                                 <div className="img-block">
-                                                                    <img className="first-img" src={val.img} alt="Wheat" />
+                                                                    <img className="first-img" src={process.env.PUBLIC_URL + val.img} alt="Wheat" />
                                                                 </div>
                                                                 <div className="product-decs">
                                                                     <h2 className="product-link">{val.name}</h2>

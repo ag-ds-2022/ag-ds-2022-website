@@ -1,25 +1,25 @@
 {
     "bestSeller": [
         {
-            "img": "../images/banner-image/31.jpg",
+            "img": "/images/banner-image/31.jpg",
             "type": "PULSES AND CRADLES",
             "name": "Wheat",
             "inStock": true
         },
         {
-            "img": "../images/banner-image/32.jpg",
+            "img": "/images/banner-image/32.jpg",
             "type": "PULSES AND CRADLES",
             "name": "Rise",
             "inStock": false
         },
         {
-            "img": "../images/banner-image/33.jpg",
+            "img": "/images/banner-image/33.jpg",
             "type": "PULSES AND CRADLES",
             "name": "Red Gram",
             "inStock": true
         },
         {
-            "img": "../images/banner-image/32.jpg",
+            "img": "/images/banner-image/32.jpg",
             "type": "PULSES AND CRADLES",
             "name": "Rise",
             "inStock": false

@@ -1,22 +1,22 @@
 {
     "Grocery": {
-        "img": "../images/banner-image/31.jpg",
+        "img": "/images/banner-image/31.jpg",
         "bannerImage": "",
         "list": [
             {
-                "img": "../images/banner-image/31.jpg",
+                "img": "/images/banner-image/31.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Wheat",
                 "inStock": true
             },
             {
-                "img": "../images/banner-image/32.jpg",
+                "img": "/images/banner-image/32.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Rise",
                 "inStock": false
             },
             {
-                "img": "../images/banner-image/33.jpg",
+                "img": "/images/banner-image/33.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Red Gram",
                 "inStock": true
@@ -24,23 +24,23 @@
         ]
     },
     "Cloth": {
-        "img": "../images/banner-image/31.jpg",
-        "bannerImage": "../images/banner-image/cloth-heading.jpg",
+        "img": "/images/banner-image/31.jpg",
+        "bannerImage": "/images/banner-image/cloth-heading.jpg",
         "list": [
             {
-                "img": "../images/banner-image/31.jpg",
+                "img": "/images/banner-image/31.jpg",
                 "type": "MEN CLOTH",
                 "name": "Full Sleeve Shirt",
                 "inStock": true
             },
             {
-                "img": "../images/banner-image/33.jpg",
+                "img": "/images/banner-image/33.jpg",
                 "type": "WOMEN CLOTH",
                 "name": "Full Sleeve Shirt",
                 "inStock": true
             },
             {
-                "img": "../images/banner-image/32.jpg",
+                "img": "/images/banner-image/32.jpg",
                 "type": "MEN CLOTH",
                 "name": "Crew Neck T-Shirt",
                 "inStock": false
@@ -48,17 +48,17 @@
         ]
     },
     "Diamond": {
-        "img": "../images/banner-image/33.jpg",
-        "bannerImage": "../images/banner-image/diamond-heading.jpg",
+        "img": "/images/banner-image/33.jpg",
+        "bannerImage": "/images/banner-image/diamond-heading.jpg",
         "list": [
             {
-                "img": "../images/banner-image/31.jpg",
+                "img": "/images/banner-image/31.jpg",
                 "type": "DIAMOND",
                 "name": "Polished Diamond",
                 "inStock": false
             },
             {
-                "img": "../images/banner-image/32.jpg",
+                "img": "/images/banner-image/32.jpg",
                 "type": "DIAMOND",
                 "name": "Rough Diamond",
                 "inStock": true

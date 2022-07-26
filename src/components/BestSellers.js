@@ -13,7 +13,6 @@ function BestSellers() {
                                 <div className="col-md-12">
                                     <div className="section-title py-3" style={{ textAlign: 'center' }}>
                                         <h2>Best Sellers</h2>
-                                        <p>Till now top high sellers products</p>
                                     </div>
                                 </div>
                             </div>

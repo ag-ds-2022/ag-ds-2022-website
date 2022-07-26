@@ -3955,7 +3955,10 @@ a.meanmenu-reveal.meanclose {
     position: relative;
     display: flex;
     align-items: flex-start;
-    padding: 36px 5px
+    padding: 36px 5px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    height: 116px;
 }
 
 .single-static-meta {
@@ -8483,7 +8486,8 @@ h3.cart-page-title {
 
 .contact-form {
     background-color: #f3f3f3;
-    padding: 50px 110px 50px 110px
+    padding: 50px 110px 50px 110px;
+    border-radius : 5px;
 }
 
 .contact-form .contact-title h2 {
@@ -8502,7 +8506,7 @@ h3.cart-page-title {
     height: 40px;
     padding: 2px 14px;
     margin-bottom: 30px;
-    color: #000;
+    color: #fff;
     width: 100%;
     outline: 0
 }

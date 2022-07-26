@@ -1,28 +1,28 @@
 {
     "bestSeller": [
         {
-            "img": "/images/banner-image/31.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Wheat",
+            "img": "/images/product-image/grocery/dairy products/Cheese.jpg",
+            "type": "DAIRY PRODUCT",
+            "name": "Cheese",
             "inStock": true
         },
         {
-            "img": "/images/banner-image/32.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Rise",
-            "inStock": false
-        },
-        {
-            "img": "/images/banner-image/33.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Red Gram",
+            "img": "/images/product-image/grocery/dairy products/Paneer.jpg",
+            "type": "DAIRY PRODUCT",
+            "name": "Paneer",
             "inStock": true
         },
         {
-            "img": "/images/banner-image/32.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Rise",
-            "inStock": false
+            "img": "/images/product-image/grocery/miscellaneous/Coconut.jpg",
+            "type": "MISCELLANEOUS",
+            "name": "Coconut",
+            "inStock": true
+        },
+        {
+            "img": "/images/product-image/grocery/miscellaneous/Jaggery.jpg",
+            "type": "MISCELLANEOUS",
+            "name": "Jaggery",
+            "inStock": true
         }
     ]
 }

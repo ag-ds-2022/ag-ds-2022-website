@@ -7,7 +7,7 @@ import staticIcons4 from '../assets/images/icons/static-icons-4.png'
 
 function AboutUs() {
     return (
-        <section id="about">
+        <section id="about-section">
             <div className="container mt-60px">
                 <div className="row mt-30px mb-30px">
                     <div className="col-md-12">

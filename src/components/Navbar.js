@@ -5,13 +5,15 @@ import ProductType from '../assets/json/product-type.json'
 
 function Navbar() {
 
-    useEffect(() => {
-
-    }, [])
-
-
+    const scrollToSection = (sectionId) => {
+        const yOffset = -40;
+        const element = document.getElementById(sectionId);
+        const y = element.getBoundingClientRect().y + window.pageYOffset + yOffset;
+        console.log(element.getBoundingClientRect(), window.pageYOffset);
+        window.scrollTo({ top: y, behavior: 'smooth' });
+    }
     return (
-        <>
+        <section id="home-section">
             <div className="d-flex justify-content-center" >
                 <Link to="/" className="navbar-brand" href="#"><img src={logo} alt="logo" width="160px"></img></Link>
             </div>
@@ -42,16 +44,16 @@ function Navbar() {
                                 </div>
                             </li>
                             <li className="nav-item px-2">
-                                <Link to="/#about" className="nav-link fw-bold" href="#">About Us</Link>
+                                <Link to="/#about" className="nav-link fw-bold" href="#" onClick={() => scrollToSection("about-section")}>About Us</Link>
                             </li>
                             <li className="nav-item px-2">
-                                <Link to="/#contact" className="nav-link fw-bold" href="#">Contact Us</Link>
+                                <Link to="/#contact" className="nav-link fw-bold" href="#" onClick={() => scrollToSection("contact-section")}>Contact Us</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </>
+        </section>
     )
 }
 

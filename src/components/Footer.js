@@ -4,6 +4,15 @@ import ProductType from '../assets/json/product-type.json'
 import flogo from '../assets/images/logo/flogo.png'
 
 function Footer() {
+
+  const scrollToSection = (sectionId) => {
+    const yOffset = -40;
+    const element = document.getElementById(sectionId);
+    const y = element.getBoundingClientRect().y + window.pageYOffset + yOffset;
+    console.log(element.getBoundingClientRect(), window.pageYOffset);
+    window.scrollTo({ top: y, behavior: 'smooth' });
+  }
+
   return (
     <>
       <footer className="footer-area">
@@ -21,7 +30,7 @@ function Footer() {
                   <p className="text-info" style={{ fontSize: '15px' }}>Trust, The part of business, You can achieve here.</p>
                 </div><br />
                 <div>
-                  Copyright © 2022 All rights reserved | <a href="/">Shipline Exim</a>
+                  Copyright © 2022 All rights reserved | <Link to="/" onClick={() => scrollToSection("home-section")}>Shipline Exim</Link>
                 </div>
               </div>
 
@@ -43,9 +52,9 @@ function Footer() {
                   <h4 className="footer-herading">Navigation Menu</h4>
                   <div className="footer-links">
                     <ul>
-                      <li><Link to="/">Home</Link></li>
-                      <li><Link to="/#about">About Us</Link></li>
-                      <li><Link to="/#contact">Contact Us</Link></li>
+                      <li><Link to="/" onClick={() => scrollToSection("home-section")}>Home</Link></li>
+                      <li><Link to="/#about" onClick={() => scrollToSection("about-section")}>About Us</Link></li>
+                      <li><Link to="/#contact" onClick={() => scrollToSection("contact-section")}>Contact Us</Link></li>
                     </ul>
                   </div>
                 </div>

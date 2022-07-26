@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactUs() {
     return (
-        <section id="contact">
+        <section id="contact-section">
             <div className="contact-area mtb-60px">
                 <div className="container">
                     <div className="row mb-4">

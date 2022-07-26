@@ -70,7 +70,7 @@ hr {
 }
 
 .dropdown-item:hover {
-    color: #4fb68d !important;
+    color: #F7941E !important;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -91,7 +91,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: #4fb68d !important;
+    color: #F7941E !important;
 }
 
 .phone1 {
@@ -141,7 +141,7 @@ a.nav-link:hover {
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: #4fb68d;
+    background-color: #F7941E;
     border-radius: 100px;
     width: 13px;
     height: 13px;
@@ -257,8 +257,8 @@ a.nav-link:hover {
 }
 
 .form-control:focus {
-    border-color: #4fb68d !important;
-    box-shadow: 0 0 3px #4fb68d !important;
+    border-color: #F7941E !important;
+    box-shadow: 0 0 3px #F7941E !important;
 }
 
 input.in-stock {
@@ -284,10 +284,6 @@ input.in-stock {
     background-size: 100% 100%;
     background-repeat: no-repeat;
     min-height: 570px;
-}
-
-.contact-form{
-    padding: 70px 110px 50px 110px !important;
 }
 
 .about-left-image{

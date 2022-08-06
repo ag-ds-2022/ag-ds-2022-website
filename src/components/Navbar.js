@@ -9,7 +9,6 @@ function Navbar() {
         const yOffset = -40;
         const element = document.getElementById(sectionId);
         const y = element.getBoundingClientRect().y + window.pageYOffset + yOffset;
-        console.log(element.getBoundingClientRect(), window.pageYOffset);
         window.scrollTo({ top: y, behavior: 'smooth' });
     }
     return (

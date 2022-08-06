@@ -10,7 +10,7 @@ const Modal = ({ open, onClose, product }) => {
         }}
         className='modalContainer'
       >
-        <img src={process.env.PUBLIC_URL + product?.img} alt={product?.name} />
+        <img className="modal-img" src={process.env.PUBLIC_URL + product?.img} alt={product?.name} />
         <div className='modalRight'>
           <p className='closeBtn' onClick={onClose}>
             X

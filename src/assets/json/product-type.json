@@ -7,283 +7,330 @@
                 "img": "/images/product-image/grocery/pulses/Wheat.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Wheat",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Rise.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Rise",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Red Gram.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Red Gram",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Bengal Gram.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Bengal Gram",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Chickpeas.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Black Chickpeas",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Chickpeas.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Chickpeas",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Pearl Millet.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Pearl Millet",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Ground Nuts.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Ground Nuts",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Maize.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Maize",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Cumin Seeds.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Cumin Seeds",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Coriander Seeds.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Coriander Seeds",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/pulses/Fenugreek Seeds.jpg",
                 "type": "PULSES AND CRADLES",
                 "name": "Fenugreek Seeds",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/flours/Wheat Flour.jpg",
                 "type": "FLOUR",
                 "name": "Wheat Flour",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/flours/Rise Flour.jpg",
                 "type": "FLOUR",
                 "name": "Rise Flour",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/flours/Gram Flour.jpg",
                 "type": "FLOUR",
                 "name": "Gram Flour",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/flours/Corn Flour.jpg",
                 "type": "FLOUR",
                 "name": "Corn Flour",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Aniseed.jpg",
                 "type": "SPICES",
                 "name": "Aniseed",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Turmeric Powder.jpg",
                 "type": "SPICES",
                 "name": "Turmeric Powder",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Red Chillies Powder.jpg",
                 "type": "SPICES",
                 "name": "Red Chillies Powder",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Red Chillies.jpg",
                 "type": "SPICES",
                 "name": "Red Chillies",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Cloves.jpg",
                 "type": "SPICES",
                 "name": "Cloves",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Asafoetida.jpg",
                 "type": "SPICES",
                 "name": "Asafoetida",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Cinnamon.jpg",
                 "type": "SPICES",
                 "name": "Cinnamon",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Tamarind.jpg",
                 "type": "SPICES",
                 "name": "Tamarind",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Black Pepper.jpg",
                 "type": "SPICES",
                 "name": "Black Pepper",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Bay Leaf.jpg",
                 "type": "SPICES",
                 "name": "Bay Leaf",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Cardamom.jpg",
                 "type": "SPICES",
                 "name": "Cardamom",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Fennel.jpg",
                 "type": "SPICES",
                 "name": "Fennel",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/spices/Flax Seeds.jpg",
                 "type": "SPICES",
                 "name": "Flax Seeds",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Lemon.jpg",
                 "type": "VEGETABLE",
                 "name": "Lemon",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Onion.jpg",
                 "type": "VEGETABLE",
                 "name": "Onion",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Garlic.jpg",
                 "type": "VEGETABLE",
                 "name": "Garlic",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Carrot.jpg",
                 "type": "VEGETABLE",
                 "name": "Carrot",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Ginger.jpg",
                 "type": "VEGETABLE",
                 "name": "Ginger",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Raddish.jpg",
                 "type": "VEGETABLE",
                 "name": "Raddish",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Red Radish.jpg",
                 "type": "VEGETABLE",
                 "name": "Red Raddish",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/fruit/Banana.jpg",
                 "type": "FRUIT",
                 "name": "Banana",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/fruit/Guava.jpg",
                 "type": "FRUIT",
                 "name": "Guava",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/fruit/Mango.jpg",
                 "type": "FRUIT",
                 "name": "Mango",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/fruit/Raw Banana.jpg",
                 "type": "FRUIT",
                 "name": "Raw Banana",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/fruit/Dragon Fruit.jpg",
                 "type": "FRUIT",
                 "name": "Dragon Fruit",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/dairy products/Butter.jpg",
                 "type": "DAIRY PRODUCT",
                 "name": "Butter",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/dairy products/Ghee.jpg",
                 "type": "DAIRY PRODUCT",
                 "name": "Ghee",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/dairy products/Cheese.jpg",
                 "type": "DAIRY PRODUCT",
                 "name": "Cheese",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/dairy products/Paneer.jpg",
                 "type": "DAIRY PRODUCT",
                 "name": "Paneer",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/miscellaneous/Coconut.jpg",
                 "type": "MISCELLANEOUS",
                 "name": "Coconut",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             },
             {
                 "img": "/images/product-image/grocery/miscellaneous/Jaggery.jpg",
                 "type": "MISCELLANEOUS",
                 "name": "Jaggery",
-                "inStock": true
+                "inStock": true,
+                "description": "product details"
             }
         ]
     }

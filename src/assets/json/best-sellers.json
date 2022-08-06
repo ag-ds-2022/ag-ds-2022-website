@@ -4,25 +4,29 @@
             "img": "/images/product-image/grocery/dairy products/Cheese.jpg",
             "type": "DAIRY PRODUCT",
             "name": "Cheese",
-            "inStock": true
+            "inStock": true,
+            "description": "product details"
         },
         {
             "img": "/images/product-image/grocery/dairy products/Paneer.jpg",
             "type": "DAIRY PRODUCT",
             "name": "Paneer",
-            "inStock": true
+            "inStock": true,
+            "description": "product details"
         },
         {
             "img": "/images/product-image/grocery/miscellaneous/Coconut.jpg",
             "type": "MISCELLANEOUS",
             "name": "Coconut",
-            "inStock": true
+            "inStock": true,
+            "description": "product details"
         },
         {
             "img": "/images/product-image/grocery/miscellaneous/Jaggery.jpg",
             "type": "MISCELLANEOUS",
             "name": "Jaggery",
-            "inStock": true
+            "inStock": true,
+            "description": "product details"
         }
     ]
 }

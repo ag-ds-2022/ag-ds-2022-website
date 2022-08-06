@@ -1,6 +1,24 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
 
 function ContactUs() {
+    const form = useRef();
+    const [isMailSend, setIsMailSend] = useState(false);
+
+    function sendEmail(e) {
+        e.preventDefault();
+        if (isMailSend) {
+            return null;
+        }
+        console.log(process.env.REACT_APP_EMAIL_SERVICE, process.env.REACT_APP_EMAIL_PUBLIC_KEY);
+        emailjs.sendForm(process.env.REACT_APP_EMAIL_SERVICE, process.env.REACT_APP_EMAIL_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAIL_PUBLIC_KEY)
+            .then(function (response) {
+                setIsMailSend(true);
+            }, function (err) {
+                console.log('FAILED...', err);
+            });
+    }
+
     return (
         <section id="contact-section">
             <div className="contact-area mtb-60px">
@@ -16,16 +34,13 @@ function ContactUs() {
                         <div className="col-12">
                             <div className="contact-form contact-form-background">
 
-                                <form className="contact-form-style" id="contact-form" action="https://demo.hasthemes.com/ecolife-preview/ecolife/assets/php/mail.php" method="post">
+                                <form ref={form} className="contact-form-style" id="contact-form" onSubmit={sendEmail}>
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <input name="name" placeholder="Name*" type="text" />
+                                            <input name="name" placeholder="Name*" type="text" required />
                                         </div>
                                         <div className="col-lg-6">
-                                            <input name="email" placeholder="Email*" type="email" />
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <input name="subject" placeholder="Subject*" type="text" />
+                                            <input name="user_email" placeholder="Email*" type="email" required />
                                         </div>
                                         <div className="col-lg-12">
                                             <textarea name="message" placeholder="Your Message*"></textarea>

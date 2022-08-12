@@ -1,20 +1,27 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/images/logo/logo.png'
 import ProductType from '../assets/json/product-type.json'
 
 function Navbar() {
+
+    const scrollToSection = (sectionId) => {
+        const yOffset = -40;
+        const element = document.getElementById(sectionId);
+        const y = element.getBoundingClientRect().y + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+    }
     return (
-        <>
-            <div className="d-flex justify-content-center m-3" >
-                <Link to="/" className="navbar-brand" href="#"><img src={logo} alt="logo"></img></Link>
+        <section id="home-section">
+            <div className="d-flex justify-content-center" >
+                <Link to="/" className="navbar-brand" href="#"><img src={logo} alt="logo" width="160px"></img></Link>
             </div>
             <hr />
             <nav className="navbar navbar-expand-lg navbar-light px-4 py-3">
                 <div className="container-fluid" >
                     <div className="phone1">
                         <span>Call us:</span><br />
-                        <a className="nav-link fw-bold" href="tel:(+800)345678">+91 7046209319</a>
+                        <a className="nav-link fw-bold" href="tel:(+800)345678">+91 7567902536</a>
                     </div>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -36,16 +43,16 @@ function Navbar() {
                                 </div>
                             </li>
                             <li className="nav-item px-2">
-                                <Link to="/about" className="nav-link fw-bold" href="#">About Us</Link>
+                                <Link to="/#about" className="nav-link fw-bold" href="#" onClick={() => scrollToSection("about-section")}>About Us</Link>
                             </li>
                             <li className="nav-item px-2">
-                                <Link to="/contact" className="nav-link fw-bold" href="#">Contact Us</Link>
+                                <Link to="/#contact" className="nav-link fw-bold" href="#" onClick={() => scrollToSection("contact-section")}>Contact Us</Link>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </>
+        </section>
     )
 }
 

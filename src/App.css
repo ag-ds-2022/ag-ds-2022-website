@@ -70,7 +70,7 @@ hr {
 }
 
 .dropdown-item:hover {
-    color: #4fb68d !important;
+    color: #F7941E !important;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -91,7 +91,7 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: #4fb68d !important;
+    color: #F7941E !important;
 }
 
 .phone1 {
@@ -141,7 +141,7 @@ a.nav-link:hover {
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: #4fb68d;
+    background-color: #F7941E;
     border-radius: 100px;
     width: 13px;
     height: 13px;
@@ -257,8 +257,8 @@ a.nav-link:hover {
 }
 
 .form-control:focus {
-    border-color: #4fb68d !important;
-    box-shadow: 0 0 3px #4fb68d !important;
+    border-color: #F7941E !important;
+    box-shadow: 0 0 3px #F7941E !important;
 }
 
 input.in-stock {
@@ -277,4 +277,31 @@ input.in-stock {
 
 .list-product{
     cursor: pointer;
+}
+
+.contact-form-background{
+    background-image: url("./assets/images/logo/banner.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 590px;
+}
+
+.about-left-image{
+    max-height: 550px;
+}
+
+@media only screen and (max-width: 575px) {
+    .contact-form-background{
+        background-image: url("./assets/images/logo/banner-mobile.jpg");
+        background-size:  100% 100%;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px)  {
+    .contact-form-background{
+        background-image: url("./assets/images/logo/banner-tablet.jpg");
+        background-size:  100% 100%;
+        background-repeat: no-repeat;
+    }
 }

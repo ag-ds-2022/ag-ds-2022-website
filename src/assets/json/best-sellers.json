@@ -1,34 +1,32 @@
 {
     "bestSeller": [
         {
-            "img": "/images/product-image/grocery/pulses/Wheat.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Wheat",
-            "inStock": true
+            "img": "/images/product-image/grocery/dairy products/Cheese.jpg",
+            "type": "DAIRY PRODUCT",
+            "name": "Cheese",
+            "inStock": true,
+            "description": "product details"
         },
         {
-            "img": "/images/product-image/grocery/pulses/Bengal Gram.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Bengal Gram",
-            "inStock": true
+            "img": "/images/product-image/grocery/dairy products/Paneer.jpg",
+            "type": "DAIRY PRODUCT",
+            "name": "Paneer",
+            "inStock": true,
+            "description": "product details"
         },
         {
-            "img": "/images/product-image/grocery/pulses/Pearl Millet.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Pearl Millet",
-            "inStock": true
-        },
-        {
-            "img": "/images/product-image/grocery/pulses/Cumin Seeds.jpg",
-            "type": "PULSES AND CRADLES",
-            "name": "Cumin Seeds",
-            "inStock": true
+            "img": "/images/product-image/grocery/miscellaneous/Coconut.jpg",
+            "type": "MISCELLANEOUS",
+            "name": "Coconut",
+            "inStock": true,
+            "description": "product details"
         },
         {
             "img": "/images/product-image/grocery/miscellaneous/Jaggery.jpg",
             "type": "MISCELLANEOUS",
             "name": "Jaggery",
-            "inStock": true
+            "inStock": true,
+            "description": "product details"
         }
     ]
 }

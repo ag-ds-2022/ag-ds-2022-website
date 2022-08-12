@@ -1,10 +1,6 @@
 import React from 'react'
-import carousel1 from '../assets/images/slider-image/slider3.jpg'
-import carousel2 from '../assets/images/slider-image/slider4.jpg'
-import staticIcons1 from '../assets/images/icons/static-icons-1.png'
-import staticIcons2 from '../assets/images/icons/static-icons-2.png'
-import staticIcons3 from '../assets/images/icons/static-icons-3.png'
-import staticIcons4 from '../assets/images/icons/static-icons-4.png'
+import carousel1 from '../assets/images/slider-image/sample-25.jpg'
+import carousel2 from '../assets/images/slider-image/sample-24.jpg'
 
 function Header() {
     return (
@@ -23,7 +19,6 @@ function Header() {
                                 <strong>Precious Quality Cloths</strong>
                             </h1>
                             <p className="animated">Our aim is to uniquely catering to your every need.</p>
-                            <a href="#" className="shop-btn animated">SHOP NOW</a>
                         </div>
                     </div>
                     <div className="carousel-item">
@@ -34,7 +29,7 @@ function Header() {
                                 <strong>Superior Quality Spices</strong>
                             </h1>
                             <p className="animated">For every aspect of perfection and the authentic spices for the authentic taste</p>
-                            <a href="#" className="shop-btn animated">SHOP NOW</a>
+
                         </div>
                     </div>
                 </div>
@@ -47,59 +42,6 @@ function Header() {
                     <span className="visually-hidden">Next</span>
                 </button>
             </div>
-
-            <section className="static-area mtb-60px">
-                <div className="container">
-                    <div className="static-area-wrap">
-                        <div className="row">
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6">
-                                <div className="single-static pb-res-md-0 pb-res-sm-0 pb-res-xs-0">
-                                    <img src={staticIcons1} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>Fast Shipping</h4>
-                                        <p>Based on shipping type</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6">
-                                <div className="single-static pb-res-md-0 pb-res-sm-0 pb-res-xs-0 pt-res-xs-20">
-                                    <img src={staticIcons2} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>Superior quality</h4>
-                                        <p>Quality products</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6">
-                                <div className="single-static pt-res-md-30 pb-res-sm-30 pb-res-xs-0 pt-res-xs-20">
-                                    <img src={staticIcons3} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>100% Payment Secure</h4>
-                                        <p>Your payment are safe with us.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6">
-                                <div className="single-static pt-res-md-30 pb-res-sm-30 pt-res-xs-20">
-                                    <img src={staticIcons4} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>Support 24/7</h4>
-                                        <p>Contact us 24 hours a day</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </section>
         </>
     )
 }

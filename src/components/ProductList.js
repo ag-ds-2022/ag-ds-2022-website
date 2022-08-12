@@ -1,12 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import ProductType from '../assets/json/product-type.json'
+import Modal from './Modal';
 
 function ProductList() {
     const { product_name } = useParams();
     const [searchTerm, setSearchTerm] = useState('')
     const [sortType, setSortType] = useState('')
     const [inStock, setInStock] = useState(false)
+    const [openModal, setOpenModal] = useState(false);
+    const [selectedProduct, setSelectedProduct] = useState(null);
     const [data, setData] = useState({ list: [] })
 
     useEffect(() => {
@@ -50,6 +53,11 @@ function ProductList() {
         }
         setInStock(checked);
         setData(tempData);
+    }
+
+    const openProductDetailsModal = (product) => {
+        setSelectedProduct(product);
+        setOpenModal(true)
     }
 
     return (
@@ -108,10 +116,10 @@ function ProductList() {
                                                 :
                                                 data.list.map((val, index) => {
                                                     return (
-                                                        <div className="col-xl-3 col-md-4 col-sm-6" key={index}>
+                                                        <div className="col-xl-3 col-md-4 col-sm-6" key={index} onClick={() => openProductDetailsModal(val)}>
                                                             <article className="list-product">
                                                                 <div className="img-block">
-                                                                    <img className="first-img" src={process.env.PUBLIC_URL + val.img} alt="Wheat" />
+                                                                    <img className="first-img" src={process.env.PUBLIC_URL + val.img} alt={val.name} />
                                                                 </div>
                                                                 <div className="product-decs">
                                                                     <h2 className="product-link">{val.name}</h2>
@@ -134,6 +142,12 @@ function ProductList() {
                     </div>
                 </div>
             </div>
+
+            <Modal
+                open={openModal}
+                onClose={() => { setSelectedProduct(null); setOpenModal(false); }}
+                product={selectedProduct}
+            />
         </>
     )
 }

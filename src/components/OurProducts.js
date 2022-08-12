@@ -11,8 +11,7 @@ function OurProducts() {
                     <div className="row">
                         <div className="col-md-12">
                             <div className="section-title" style={{ textAlign: 'center' }}>
-                                <h2>Our Products Type</h2>
-                                <p>We make it easy</p>
+                                <h2>Our Products</h2>
                             </div>
                         </div>
                     </div>
@@ -32,7 +31,6 @@ function OurProducts() {
                                                         <h4>{val[0]}</h4>
                                                     </div>
                                                     <span className="number_product">{val[1].list.length} Products</span>
-                                                    <a href="Grocery.html"> Shop Now <i className="ion-android-arrow-dropright-circle"></i></a>
                                                 </div>
                                             </div>
                                         </div>

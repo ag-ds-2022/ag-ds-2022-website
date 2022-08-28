@@ -11,9 +11,9 @@ function Header() {
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 </div>
                 <div className="carousel-inner h-100">
-                    <div className="carousel-item active">
+                    <div className="carousel-item active owl-item">
                         <img src={carousel1} className="d-block w-100" alt="..." style={{ opacity: "0.8" }} />
-                        <div className="carousel-caption d-md-block">
+                        <div className="carousel-caption d-md-block slider-animated-1">
                             <h1 className="animated">
                                 We Export<br />
                                 <strong>Precious Quality Cloths</strong>
@@ -21,9 +21,9 @@ function Header() {
                             <p className="animated">Our aim is to uniquely catering to your every need.</p>
                         </div>
                     </div>
-                    <div className="carousel-item">
+                    <div className="carousel-item owl-item">
                         <img src={carousel2} className="d-block w-100" alt="..." style={{ opacity: "0.8" }} />
-                        <div className="carousel-caption d-md-block">
+                        <div className="carousel-caption d-md-block slider-animated-1 ">
                             <h1 className="animated">
                                 We Export<br />
                                 <strong>Superior Quality Spices</strong>

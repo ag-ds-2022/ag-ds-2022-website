@@ -22,8 +22,8 @@ function BestSellers() {
 
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <div className="section-title py-3" style={{ textAlign: 'center' }}>
-                                            <h2 className="section-title-text">Best Sellers</h2>
+                                        <div className="section-title py-5" style={{ textAlign: 'center' }}>
+                                            <h2 className="section-title-text">Best <span>Sellers</span></h2>
                                         </div>
                                     </div>
                                 </div>

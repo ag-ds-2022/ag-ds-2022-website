@@ -31,8 +31,8 @@ function ContactUs() {
                     <div className="container">
                         <div className="row mb-4">
                             <div className="col-md-12">
-                                <div className="section-title" style={{ textAlign: 'center' }}>
-                                    <h2 className="section-title-text">Contact Us</h2>
+                                <div className="section-title pt-5 pb-4" style={{ textAlign: 'center' }}>
+                                    <h2 className="section-title-text">Contact <span>Us</span></h2>
                                 </div>
                             </div>
                         </div>

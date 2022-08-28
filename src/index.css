@@ -248,9 +248,17 @@ code {
 }
 
 .section-title-text{
-  color: #F7941E !important;
-  font-size: 30px !important;
+  font-size: 35px !important;
+  text-transform: capitalize;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
+
+.section-title-text span {
+  color: #F7941E;
+}
+
 .sticky-nav {
   position: fixed !important;
   width: 100%;

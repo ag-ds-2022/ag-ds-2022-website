@@ -14,7 +14,7 @@ function Footer() {
 
   return (
     <>
-      <footer className="footer-area">
+      <footer className="footer-area mt-5">
         <div className="footer-top pb-4">
           <div className="container">
             <div className="row">

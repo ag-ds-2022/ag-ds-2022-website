@@ -10,8 +10,8 @@ function OurProducts() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="section-title" style={{ textAlign: 'center' }}>
-                                <h2 className="section-title-text">Our Products</h2>
+                            <div className="section-title pt-5 pb-4" style={{ textAlign: 'center' }}>
+                                <h2 className="section-title-text">Our <span>Products</span></h2>
                             </div>
                         </div>
                     </div>

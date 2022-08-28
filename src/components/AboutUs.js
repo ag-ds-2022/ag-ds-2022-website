@@ -7,19 +7,19 @@ import staticIcons4 from '../assets/images/icons/static-icons-4.png'
 
 function AboutUs() {
     return (
-        <section id="about-section" className="gray_bg mb-60px">
+        <section id="about-section" className="gray_bg mtb-60px">
             < div className="container mt-60px" >
                 <div className="row mt-30px mb-30px">
                     <div className="col-md-12">
-                        <div className="section-title" style={{ textAlign: 'center' }}>
-                            <h2 className="section-title-text">About Us</h2>
+                        <div className="section-title pd-5" style={{ textAlign: 'center' }}>
+                            <h2 className="section-title-text">About <span>Us</span></h2>
                         </div>
                     </div>
                 </div>
                 <section className="mb-4">
                     <div className="container mt-5">
                         <div className="row">
-                            <div className="col-lg-6 mb-res-sm-50px about-us-left">
+                            <div className="col-lg-6 mb-res-sm-50px">
                                 <div className="about-left-image">
                                     <img src={process.env.PUBLIC_URL + "/images/banner-image/about.png"} alt="" className="img-responsive about-left-image" />
                                 </div>

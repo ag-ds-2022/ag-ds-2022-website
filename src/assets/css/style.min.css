@@ -695,15 +695,15 @@ button {
 .owl-item.active .slider-animated-1 h1 {
     -webkit-animation-delay: 1.3s;
     animation-delay: 1.3s;
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
 }
 
 .owl-item.active .slider-animated-1 a {
     -webkit-animation-delay: 1.6s;
     animation-delay: 1.6s;
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
 }
 
 .owl-item.active .slider-animated-1 span {
@@ -8720,22 +8720,22 @@ h3.cart-page-title {
     left: 0;
     right: 0;
     opacity: 0;
-    -webkit-transition: all .9s linear;
-    -moz-transition: all .9s linear;
-    -ms-transition: all .9s linear;
-    -o-transition: all .9s linear;
-    transition: all .9s linear
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
 }
 
 .banner-box:hover:after {
     top: 0;
     bottom: 0;
     opacity: 0;
-    -webkit-transition: all .9s linear;
-    -moz-transition: all .9s linear;
-    -ms-transition: all .9s linear;
-    -o-transition: all .9s linear;
-    transition: all .9s linear
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear
 }
 
 .static-banner-area .static-banner-content {

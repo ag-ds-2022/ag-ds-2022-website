@@ -48,9 +48,10 @@ code {
 
 .closeBtn {
   position: fixed;
-  top: 8px;
-  right: 8px;
+  top: 10px;
+  right: 14px;
   cursor: pointer;
+  font-size: 22px;
 }
 
 .content {
@@ -149,4 +150,129 @@ code {
     text-align: center;
     z-index: 1;
     background-color: #F7941E
+}
+
+.shop-top-bar {
+    padding: 10px 30px 6px 30px;
+    background: #f6f6f6;
+    margin-bottom: 30px;
+}
+
+
+.ftco-services .services {
+  display: block;
+  width: 100%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.ftco-services .services .icon {
+  line-height: 1.3;
+  position: relative;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.bg-color-1 {
+  background: #e4b2d6;
+}
+
+.bg-color-2 {
+  background: #dcc698;
+}
+
+.bg-color-3 {
+  background: #a2d1e1;
+}
+
+.bg-color-4 {
+  background: #dcd691;
+}
+
+.flaticon-shipped:before {
+  content:url("./assets/images/icons/static-icons-1.png");
+}
+
+.flaticon-quality:before {
+ content: url("./assets/images/icons/static-icons-2.png");
+}
+
+.flaticon-payment:before {
+  content:url("./assets/images/icons/static-icons-3.png");
+}
+
+.flaticon-support:before {
+  content:url("./assets/images/icons/static-icons-4.png");
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ftco-services .services .icon:after {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  content: '';
+  border: 2px solid rgba(255, 255, 255, 0.19);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.ftco-services .services:hover .icon, .ftco-services .services:focus .icon {
+  background: #82ae46;
+}
+
+.section-title-text{
+  color: #F7941E !important;
+  font-size: 30px !important;
+}
+.sticky-nav {
+  position: fixed !important;
+  width: 100%;
+  opacity: 1;
+  z-index: 50;
+  top: 0px;
+  background-color: #ffffff;
+}
+
+.gray_bg {
+  background: #F7F8FA;
+}
+
+.first-img:hover{
+  transition: transform .8s ease;
+  transform: scale(1.1)
+}
+
+.navbar-custom{
+  background-color: #ffffff;
+}
+
+.navbar-container{
+  margin-top: 78px;
 }

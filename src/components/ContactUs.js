@@ -26,13 +26,13 @@ function ContactUs() {
 
     return (
         <>
-            <section id="contact-section">
+            <section id="contact-section" className="mtb-60px">
                 <div className="contact-area mtb-60px">
                     <div className="container">
                         <div className="row mb-4">
                             <div className="col-md-12">
                                 <div className="section-title" style={{ textAlign: 'center' }}>
-                                    <h2>Contact Us</h2>
+                                    <h2 className="section-title-text">Contact Us</h2>
                                 </div>
                             </div>
                         </div>

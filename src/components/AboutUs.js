@@ -7,76 +7,24 @@ import staticIcons4 from '../assets/images/icons/static-icons-4.png'
 
 function AboutUs() {
     return (
-        <section id="about-section">
-            <div className="container mt-60px">
+        <section id="about-section" className="gray_bg mb-60px">
+            < div className="container mt-60px" >
                 <div className="row mt-30px mb-30px">
                     <div className="col-md-12">
                         <div className="section-title" style={{ textAlign: 'center' }}>
-                            <h2>About Us</h2>
+                            <h2 className="section-title-text">About Us</h2>
                         </div>
                     </div>
                 </div>
-
                 <section className="mb-4">
-                    <div className="container">
+                    <div className="container mt-5">
                         <div className="row">
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6 my-2 static-area">
-                                <div className="single-static pb-res-md-0 pb-res-sm-0 pb-res-xs-0">
-                                    <img src={staticIcons1} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>Fast Shipping</h4>
-                                        <p>Based on shipping type</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6 my-2 static-area">
-                                <div className="single-static pb-res-md-0 pb-res-sm-0 pb-res-xs-0 pt-res-xs-20">
-                                    <img src={staticIcons2} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>Superior quality</h4>
-                                        <p>Quality products</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6 my-2 static-area">
-                                <div className="single-static pt-res-md-30 pb-res-sm-30 pb-res-xs-0 pt-res-xs-20">
-                                    <img src={staticIcons3} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>100% Payment Secure</h4>
-                                        <p>Your payment are safe with us.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div className="col-lg-3 col-xs-12 col-md-6 col-sm-6 my-2 static-area">
-                                <div className="single-static pt-res-md-30 pb-res-sm-30 pt-res-xs-20">
-                                    <img src={staticIcons4} alt="" className="img-responsive" />
-                                    <div className="single-static-meta">
-                                        <h4>Support 24/7</h4>
-                                        <p>Contact us 24 hours a day</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-
-                <section>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 mb-res-sm-50px">
+                            <div className="col-lg-6 mb-res-sm-50px about-us-left">
                                 <div className="about-left-image">
                                     <img src={process.env.PUBLIC_URL + "/images/banner-image/about.png"} alt="" className="img-responsive about-left-image" />
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-6 about-us-right">
                                 <div className="about-content">
                                     <div className="about-title">
                                         <h2>Welcome To Sarvopari Exim</h2>
@@ -111,25 +59,68 @@ function AboutUs() {
                         </div>
                     </div>
                 </section>
-
-                <div className="banner-3-area" style={{ marginTop: "2px", marginBottom: "50px" }}>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-res-xs-30">
-                                <div className="banner-wrapper banner-box">
-                                    <img src={process.env.PUBLIC_URL + "/images/banner-image/mission.jpg"} alt="" />
+                <section className="mb-4">
+                    <section class="ftco-section">
+                        <div class="container">
+                            <div class="row no-gutters ftco-services">
+                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div class="media block-6 services mb-md-0 mb-4">
+                                        <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
+                                            <span class="flaticon-shipped"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <div className="single-static-meta">
+                                                <h4>Fast Shipping</h4>
+                                                <p>Based on shipping type</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <div className="banner-wrapper banner-box">
-                                    <img src={process.env.PUBLIC_URL + "/images/banner-image/vision.jpg"} alt="" />
+                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div class="media block-6 services mb-md-0 mb-4">
+                                        <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
+                                            <span class="flaticon-quality"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <div className="single-static-meta">
+                                                <h4>Superior quality</h4>
+                                                <p>Quality products</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div class="media block-6 services mb-md-0 mb-4">
+                                        <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
+                                            <span class="flaticon-payment"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <div className="single-static-meta">
+                                                <h4>100% Payment Secure</h4>
+                                                <p>Your payment are safe with us.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div class="media block-6 services mb-md-0 mb-4">
+                                        <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
+                                            <span class="flaticon-support"></span>
+                                        </div>
+                                        <div class="media-body">
+                                            <div className="single-static-meta">
+                                                <h4>Support 24/7</h4>
+                                                <p>Contact us 24 hours a day</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                    </section>
+                </section>
+            </div >
+        </section >
     )
 }
 

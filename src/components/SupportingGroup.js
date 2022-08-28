@@ -12,7 +12,7 @@ function SupportingGroup() {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="section-title" style={{ textAlign: 'center' }}>
-                            <h2>Supporting Group</h2>
+                            <h2 className="section-title-text">Supporting Group</h2>
                             <p>Our well wishers company</p>
                         </div>
                     </div>

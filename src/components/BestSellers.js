@@ -17,13 +17,13 @@ function BestSellers() {
             {
                 (BestSellersProduct && BestSellersProduct?.bestSeller && BestSellersProduct?.bestSeller?.length) ?
                     <>
-                        <section className="best-sells-area mb-30px">
+                        <section className="best-sells-area mtb-60px">
                             <div className="container">
 
                                 <div className="row">
                                     <div className="col-md-12">
                                         <div className="section-title py-3" style={{ textAlign: 'center' }}>
-                                            <h2>Best Sellers</h2>
+                                            <h2 className="section-title-text">Best Sellers</h2>
                                         </div>
                                     </div>
                                 </div>

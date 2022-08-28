@@ -15,25 +15,16 @@ function Footer() {
   return (
     <>
       <footer className="footer-area">
-        <div className="footer-top">
+        <div className="footer-top pb-4">
           <div className="container">
             <div className="row">
-
-              <div className="col-md-6 col-lg-4">
-
-                <div className="footer-logo">
-                  <a href="/"><img src={flogo} alt="" width="200px" /></a>
-                </div>
-
+              <div className="col-md-6 col-lg-3 mt-res-sx-30px mt-res-md-30px">
+                <h4 className="footer-herading">Shipline Exim</h4>
                 <div className="about-footer">
                   <p className="text-info" style={{ fontSize: '15px' }}>Trust, The part of business, You can achieve here.</p>
                 </div><br />
-                <div>
-                  Copyright © 2022 All rights reserved | <Link to="/" onClick={() => scrollToSection("home-section")}>Shipline Exim</Link>
-                </div>
               </div>
-
-              <div className="col-md-6 col-lg-2 mt-res-sx-30px mt-res-md-30px">
+              <div className="col-md-6 col-lg-3 mt-res-sx-30px mt-res-md-30px">
                 <div className="single-wedge">
                   <h4 className="footer-herading">Products</h4>
                   <div className="footer-links">
@@ -46,7 +37,7 @@ function Footer() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-2 mt-res-sx-30px mt-res-md-30px">
+              <div className="col-md-6 col-lg-3 mt-res-sx-30px mt-res-md-30px">
                 <div className="single-wedge">
                   <h4 className="footer-herading">Navigation Menu</h4>
                   <div className="footer-links">
@@ -58,6 +49,20 @@ function Footer() {
                   </div>
                 </div>
               </div>
+              <div className="col-md-6 col-lg-3 mt-res-sx-30px mt-res-md-30px">
+                <div className="single-wedge">
+                  <h4 className="footer-herading">Have a Questions?</h4>
+                  <div className="s">
+                    <ul>
+                      <li>+91 7567902536</li>
+                      <li>shiplineexim@gmail.com</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="text-center">
+              Copyright © 2022 All rights reserved | <Link to="/" onClick={() => scrollToSection("home-section")}>Shipline Exim</Link>
             </div>
           </div>
         </div>

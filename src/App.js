@@ -17,7 +17,7 @@ import ProductList from './components/ProductList';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App gray_bg">
       <div id='main'>
         <Navbar />
         <Routes>

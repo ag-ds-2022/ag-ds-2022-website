@@ -26,7 +26,7 @@ function ContactUs() {
 
     return (
         <>
-            <section id="contact-section" className="mtb-60px">
+            <section id="contact-section" className="">
                 <div className="contact-area mtb-60px">
                     <div className="container">
                         <div className="row mb-4">

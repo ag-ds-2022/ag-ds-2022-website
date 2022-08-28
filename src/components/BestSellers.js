@@ -17,7 +17,7 @@ function BestSellers() {
             {
                 (BestSellersProduct && BestSellersProduct?.bestSeller && BestSellersProduct?.bestSeller?.length) ?
                     <>
-                        <section className="best-sells-area mtb-60px">
+                        <section className="best-sells-area">
                             <div className="container">
 
                                 <div className="row">

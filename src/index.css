@@ -248,7 +248,7 @@ code {
 }
 
 .section-title-text{
-  font-size: 35px !important;
+  font-size: 37px !important;
   text-transform: capitalize;
   line-height: 36px;
   font-weight: 600;
@@ -283,4 +283,34 @@ code {
 
 .navbar-container{
   margin-top: 78px;
+}
+
+.about-us-right{
+  -webkit-animation-delay: 1.3s;
+  animation-delay: 1.3s;
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight
+}
+
+.about-title{
+  font-size: 35px;
+}
+
+.about-text{
+  font-size: 16px;
+  text-align: justify;
+}
+
+.ftco-section{
+  margin: 60px 0px 50px 0px;
+}
+
+.contact-us-form-input{
+  border: 1.5px solid #ffffff;
+}
+
+.contact-us-form-input::placeholder {
+  font-weight: bold;
+  opacity: 0.6;
+  color: #ffffff;
 }

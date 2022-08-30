@@ -1,41 +1,56 @@
-import React from 'react'
-import SupportingGroup from './SupportingGroup'
-import staticIcons1 from '../assets/images/icons/static-icons-1.png'
-import staticIcons2 from '../assets/images/icons/static-icons-2.png'
-import staticIcons3 from '../assets/images/icons/static-icons-3.png'
-import staticIcons4 from '../assets/images/icons/static-icons-4.png'
+import React, { useEffect, useState } from 'react'
+// import SupportingGroup from './SupportingGroup'
 
 function AboutUs() {
+
+    const [animated, setAnimated] = useState("d-none")
+
+    useEffect(() => {
+        window.addEventListener('scroll', stickNavbar);
+        return () => {
+            window.removeEventListener('scroll', stickNavbar);
+        };
+    }, []);
+
+    const stickNavbar = () => {
+        if (window !== undefined) {
+            let windowHeight = window.scrollY;
+            console.log(windowHeight);
+            windowHeight > 250 ? setAnimated('owl-item') : setAnimated('');
+        }
+    };
+
     return (
         <section id="about-section" className="gray_bg">
-            < div className="container mt-60px" >
-                <div className="row mt-30px mb-30px">
+            < div className="container mt-60px pt-2" >
+                <div className="row mb-30px">
                     <div className="col-md-12">
                         <div className="section-title pd-5" style={{ textAlign: 'center' }}>
-                            <h2 className="section-title-text">About <span>Us</span></h2>
+                            <h2 className="section-title-text pt-2">About <span>Us</span></h2>
                         </div>
                     </div>
                 </div>
                 <section className="mb-4">
                     <div className="container mt-5">
                         <div className="row">
-                            <div className="col-lg-6 mb-res-sm-50px">
-                                <div className="about-left-image">
+                            <div className={`col-lg-6 mb-res-sm-50px d-flex align-items-center active ${animated}`}>
+                                <div className="about-left-image animated">
                                     <img src={process.env.PUBLIC_URL + "/images/banner-image/about.png"} alt="" className="img-responsive about-left-image" />
                                 </div>
                             </div>
-                            <div className="col-lg-6 about-us-right">
-                                <div className="about-content">
-                                    <div className="about-title">
+
+                            <div className={`col-lg-6 active ${animated}`}>
+                                <div className="about-content about-us-text-content">
+                                    <p className={`about-title animated`}>
                                         <h2>Welcome To Sarvopari Exim</h2>
-                                    </div>
-                                    <p className="mb-30px">
+                                    </p>
+                                    <p className={`mb-30px about-text animated`}>
                                         Sarvopari Exim is an Indian export and import company. We export grocery products,
                                         different clothing items, and diamonds. We at Sarvopari Exim give assurance for choosing
                                         the best grocery items, Clothing items, and superior quality diamonds to export in the
                                         different parts of the world.
                                     </p>
-                                    <p className="mb-30px">
+                                    <p className={`mb-30px about-text animated`}>
                                         We export farming products and spices with assurance for the farm-fresh spices, pulses,
                                         vegetables, fruits, dairy products, and other items. That natural farming product
                                         increases the taste of cooked food and gives the real Indian taste. Full of minerals,
@@ -46,7 +61,7 @@ function AboutUs() {
                                         unpolished(rough) diamonds with superior quality worldwide. Our diamonds have an
                                         excellent cut and extract maximum brilliance.
                                     </p>
-                                    <p>
+                                    <p className={`about-text animated`}>
                                         We at Sarvopari Exim supply premium quality products to the distributors and importers
                                         for the retail market, and directly to the food service industry. We take pride in
                                         providing and managing a sustainable supply chain solution, connecting Indian farmers
@@ -70,7 +85,7 @@ function AboutUs() {
                                         </div>
                                         <div class="media-body">
                                             <div className="single-static-meta">
-                                                <h4>Fast Shipping</h4>
+                                                <h4 className="font-weight-bold">Fast Shipping</h4>
                                                 <p>Based on shipping type</p>
                                             </div>
                                         </div>
@@ -83,7 +98,7 @@ function AboutUs() {
                                         </div>
                                         <div class="media-body">
                                             <div className="single-static-meta">
-                                                <h4>Superior quality</h4>
+                                                <h4 className="font-weight-bold">Superior quality</h4>
                                                 <p>Quality products</p>
                                             </div>
                                         </div>
@@ -96,7 +111,7 @@ function AboutUs() {
                                         </div>
                                         <div class="media-body">
                                             <div className="single-static-meta">
-                                                <h4>100% Payment Secure</h4>
+                                                <h4 className="font-weight-bold">100% Payment Secure</h4>
                                                 <p>Your payment are safe with us.</p>
                                             </div>
                                         </div>
@@ -109,7 +124,7 @@ function AboutUs() {
                                         </div>
                                         <div class="media-body">
                                             <div className="single-static-meta">
-                                                <h4>Support 24/7</h4>
+                                                <h4 className="font-weight-bold">Support 24/7</h4>
                                                 <p>Contact us 24 hours a day</p>
                                             </div>
                                         </div>

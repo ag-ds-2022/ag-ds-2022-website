@@ -6,8 +6,8 @@ import { Route, Routes } from 'react-router-dom'
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Footer from './components/Footer';
-import AboutUs from './components/AboutUs';
-import ContactUs from './components/ContactUs';
+// import AboutUs from './components/AboutUs';
+// import ContactUs from './components/ContactUs';
 import ProductList from './components/ProductList';
 
 // import './assets/js/vendor/jquery-3.5.1.min.js'

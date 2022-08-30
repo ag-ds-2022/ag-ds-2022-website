@@ -43,13 +43,13 @@ function ContactUs() {
                                     <form ref={form} className="contact-form-style" id="contact-form" onSubmit={sendEmail}>
                                         <div className="row">
                                             <div className="col-lg-6">
-                                                <input name="name" placeholder="Name*" type="text" required />
+                                                <input className="contact-us-form-input" name="name" placeholder="Name*" type="text" required />
                                             </div>
                                             <div className="col-lg-6">
-                                                <input name="user_email" placeholder="Email*" type="email" required />
+                                                <input className="contact-us-form-input" name="user_email" placeholder="Email*" type="email" required />
                                             </div>
                                             <div className="col-lg-12">
-                                                <textarea name="message" placeholder="Your Message*"></textarea>
+                                                <textarea className="contact-us-form-input" name="message" placeholder="Your Message*"></textarea>
                                                 <button className="submit" type="submit">SEND</button>
                                             </div>
                                         </div>

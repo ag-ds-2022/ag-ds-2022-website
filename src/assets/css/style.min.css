@@ -720,6 +720,20 @@ button {
     animation-name: fadeInUp
 }
 
+.owl-item.active .about-us-text-content > p {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight
+}
+
+.owl-item.active .about-left-image {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft
+}
+
 .home-18 .main-navigation ul li ul.mega-menu-wrap {
     left: -200px
 }
@@ -4219,7 +4233,7 @@ a.quick_view:hover {
     margin-bottom: 10px;
     font-weight: 700;
     color: #253237;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: capitalize
 }
 

@@ -86,14 +86,14 @@ function ProductList() {
                             <div>
                                 <div className="mb-res-sm-15 mx-3">
                                     <div id="dtBasicExample_filter" className="dataTables_filter">
-                                        <input type="search" className="form-control form-control-sm" placeholder="Search" aria-controls="dtBasicExample" value={searchTerm} onChange={e => searchHandler(e.target.value)} />
+                                        <input type="search" className="form-control form-control-sm" placeholder="Search Product" aria-controls="dtBasicExample" value={searchTerm} onChange={e => searchHandler(e.target.value)} style={{ minWidth: "250px" }} />
                                     </div>
                                 </div>
                             </div>
                             <div className="d-flex">
                                 <div className="dataTables_length bs-select mx-3" id="dtBasicExample_length">
-                                    <select name="dtBasicExample_length" aria-controls="dtBasicExample" className="custom-select custom-select-sm form-control form-control-sm" value={sortType} onChange={(e) => sorted(e.target.value)}>
-                                        <option value="" hidden disabled>--Sort By--</option>
+                                    <select name="dtBasicExample_length" aria-controls="dtBasicExample" className="custom-select custom-select-sm form-control form-control-sm" value={sortType} onChange={(e) => sorted(e.target.value)} style={{ minWidth: "160px" }}>
+                                        <option value="" hidden disabled>--Sort By Name--</option>
                                         <option value="AtoZ">A to Z</option>
                                         <option value="ZtoA">Z to A</option>
                                     </select>

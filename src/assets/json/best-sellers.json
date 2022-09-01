@@ -1,32 +1,32 @@
 {
     "bestSeller": [
         {
-            "img": "/images/product-image/grocery/dairy products/Cheese.jpg",
-            "type": "DAIRY PRODUCT",
-            "name": "Cheese",
+            "img": "/images/product-image/grocery/vegetable/Onion.jpeg",
+            "type": "VEGETABLE",
+            "name": "Onion",
             "inStock": true,
-            "description": "product details"
+            "description": "An onion is a round vegetable with a brown skin that grows underground. It has many white layers on its inside which have a strong, sharp smell and taste. Most whole onions are slightly dried before marketing, making their skins dry and paper-thin. There is a wide range of varieties that can be classified according to the colour of the bulb, the shape, size, use, origine and earliness. Onions are cultivated and used around the world. As a food item, they are usually served cooked as a vegetable or a part of a prepared savoury dish, but can also be eaten raw or used to make pickles or chutneys. They are pungent when chopped and contain certain chemical substances which may irritate the eyes. Though all vegetables are important for health, certain kinds offer unique benefits. Onions contain various vitamins, minerals and potent plant compounds that have been shown to promote health in many ways. In fact, the medicinal properties of onions have been recognized since ancient times, when they were used to treat ailments like headaches, heart disease and mouth sores."
         },
         {
-            "img": "/images/product-image/grocery/dairy products/Paneer.jpg",
-            "type": "DAIRY PRODUCT",
-            "name": "Paneer",
+            "img": "/images/product-image/grocery/vegetable/Potato.jpeg",
+            "type": "VEGETABLE",
+            "name": "Potato",
             "inStock": true,
-            "description": "product details"
+            "description": "The Potato is one of the most cultivated Products in the world. Its consumption is intended for human feeding in fresh. for cattle feeding  and as raw material for the food and agricalture processing  industries  such as chips, potato flakes, frozen potato etc. Potato plants have a law growing habit and bear white to purple flowers with yellow stamens. Any potato variety can also be propagated vegetatively by  planting pieces  of existing tubers, cut to include at least one eye."
         },
         {
-            "img": "/images/product-image/grocery/miscellaneous/Coconut.jpg",
-            "type": "MISCELLANEOUS",
-            "name": "Coconut",
+            "img": "/images/product-image/grocery/vegetable/Lemon.jpg",
+            "type": "VEGETABLE",
+            "name": "Lemon",
             "inStock": true,
-            "description": "product details"
+            "description": "The lemon is a round, slightly elongated fruit, it has a strong and resistant skin, with an intense bright yellow colour. When it is totally ripe, giving off a special aroma when it is cut. Lemon is a type of citrus fruit. It contains high levels of citric acid. Due to their bitter taste, lemon fruit is not usually consumed fresh, it is used widely to make juice such as lemonade, as garnishes in cooking and as flavouring in cooking and baking."
         },
         {
-            "img": "/images/product-image/grocery/miscellaneous/Jaggery.jpg",
-            "type": "MISCELLANEOUS",
-            "name": "Jaggery",
+            "img": "/images/product-image/grocery/vegetable/Ginger (1).jpeg",
+            "type": "VEGETABLE",
+            "name": "Ginger",
             "inStock": true,
-            "description": "product details"
+            "description": "The ginger plant has a thick, branched rhizome with a brown outer layer and yellow centre that has a spicy, citrusy aroma. Ginger provides value for humans that goes beyond simple utilitarian values, such as nutrition or medicine to touch upon the human internal desire for beauty and to experience a variety of tastes and textures. Fresh ginger is an essential ingredient in the preparation of oriental dishes, both sweet and savoury, from entrees to desserts. Ginger can be eaten fresh, dried and stored as a spice, or made into tablets, capsules and liquid extracts."
         }
     ]
 }

@@ -215,7 +215,7 @@ a.nav-link:hover {
 
 @media only screen and (max-width: 400px) {
     .carousel-caption {
-        transform: translate(0%, 0%);
+        transform: translate(0%, 25%);
         top: 0 !important;
     }
 }

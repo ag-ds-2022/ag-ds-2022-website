@@ -10,24 +10,35 @@ const Modal = ({ open, onClose, product }) => {
         }}
         className='modalContainer'
       >
-        <img className="modal-img" src={process.env.PUBLIC_URL + product?.img} alt={product?.name} />
-        <div className='modalRight'>
-          <p className='closeBtn' onClick={onClose}>
-            X
-          </p>
-          <div className="product-details-decs">
-            <div className="product-details-decs-header">
-              <h2 className="product-details-link">{product.name}</h2>
-              <span className="">
-                {(product.inStock) ? <span className="in-stock-btn">In Stock</span> : <span className="out-of-stock">Out of Stock</span>}
-              </span>
+        <div className="modal-content-container">
+          <div>
+            <p className='closeBtn' onClick={onClose}>
+              X
+            </p>
+            <div className="product-details-decs">
+              <div className="product-details-decs-header">
+                <h2 className="product-details-link">{product.name}</h2>
+
+              </div>
+              <p className="inner-link"><span>{product.type}</span>
+                <span className="ml-2">
+                  {(product.inStock) ? <span className="in-stock-btn">In Stock</span> : <span className="out-of-stock">Out of Stock</span>}
+                </span>
+              </p>
+              <hr />
             </div>
-            <p className="inner-link"><span>{product.type}</span></p>
-            <hr />
           </div>
-          <p className='content'>
-            {product?.description}
-          </p>
+          <div className="modal-img-desc-container">
+            <img className="modal-img" src={process.env.PUBLIC_URL + product?.img} alt={product?.name} />
+            <div className='modalRight'>
+
+              <p className='content'>
+                {product?.description}
+              </p>
+            </div>
+
+          </div>
+
         </div>
       </div>
     </div>

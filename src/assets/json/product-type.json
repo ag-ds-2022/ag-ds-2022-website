@@ -4,333 +4,81 @@
         "banner-image": "/images/banner-image/cloth-heading.jpg",
         "list": [
             {
-                "img": "/images/product-image/grocery/pulses/Wheat.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Wheat",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Rise.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Rise",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Red Gram.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Red Gram",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Bengal Gram.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Bengal Gram",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Chickpeas.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Black Chickpeas",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Chickpeas.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Chickpeas",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Pearl Millet.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Pearl Millet",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Ground Nuts.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Ground Nuts",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Maize.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Maize",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Cumin Seeds.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Cumin Seeds",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Coriander Seeds.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Coriander Seeds",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/pulses/Fenugreek Seeds.jpg",
-                "type": "PULSES AND CRADLES",
-                "name": "Fenugreek Seeds",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/flours/Wheat Flour.jpg",
-                "type": "FLOUR",
-                "name": "Wheat Flour",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/flours/Rise Flour.jpg",
-                "type": "FLOUR",
-                "name": "Rise Flour",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/flours/Gram Flour.jpg",
-                "type": "FLOUR",
-                "name": "Gram Flour",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/flours/Corn Flour.jpg",
-                "type": "FLOUR",
-                "name": "Corn Flour",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Aniseed.jpg",
-                "type": "SPICES",
-                "name": "Aniseed",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Turmeric Powder.jpg",
-                "type": "SPICES",
-                "name": "Turmeric Powder",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Red Chillies Powder.jpg",
-                "type": "SPICES",
-                "name": "Red Chillies Powder",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Red Chillies.jpg",
-                "type": "SPICES",
-                "name": "Red Chillies",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Cloves.jpg",
-                "type": "SPICES",
-                "name": "Cloves",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Asafoetida.jpg",
-                "type": "SPICES",
-                "name": "Asafoetida",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Cinnamon.jpg",
-                "type": "SPICES",
-                "name": "Cinnamon",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Tamarind.jpg",
-                "type": "SPICES",
-                "name": "Tamarind",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Black Pepper.jpg",
-                "type": "SPICES",
-                "name": "Black Pepper",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Bay Leaf.jpg",
-                "type": "SPICES",
-                "name": "Bay Leaf",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Cardamom.jpg",
-                "type": "SPICES",
-                "name": "Cardamom",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Fennel.jpg",
-                "type": "SPICES",
-                "name": "Fennel",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/spices/Flax Seeds.jpg",
-                "type": "SPICES",
-                "name": "Flax Seeds",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/vegetable/Lemon.jpg",
-                "type": "VEGETABLE",
-                "name": "Lemon",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/vegetable/Onion.jpg",
+                "img": "/images/product-image/grocery/vegetable/Onion.jpeg",
                 "type": "VEGETABLE",
                 "name": "Onion",
                 "inStock": true,
-                "description": "product details"
+                "description": "An onion is a round vegetable with a brown skin that grows underground. It has many white layers on its inside which have a strong, sharp smell and taste. Most whole onions are slightly dried before marketing, making their skins dry and paper-thin. There is a wide range of varieties that can be classified according to the colour of the bulb, the shape, size, use, origine and earliness. Onions are cultivated and used around the world. As a food item, they are usually served cooked as a vegetable or a part of a prepared savoury dish, but can also be eaten raw or used to make pickles or chutneys. They are pungent when chopped and contain certain chemical substances which may irritate the eyes. Though all vegetables are important for health, certain kinds offer unique benefits. Onions contain various vitamins, minerals and potent plant compounds that have been shown to promote health in many ways. In fact, the medicinal properties of onions have been recognized since ancient times, when they were used to treat ailments like headaches, heart disease and mouth sores."
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Garlic.jpg",
                 "type": "VEGETABLE",
                 "name": "Garlic",
                 "inStock": true,
-                "description": "product details"
+                "description": "Garlic is the small, white, round bulb of a plant that is related to the onion plant. Garlic has a very strong smell and taste and is used in cooking. They have a characteristic pungent, spicy flavour that mellows and sweetens considerably with cooking.Currently, garlic is widely used for several conditions linked to the blood system and heart, including high cholesterol, heart attack, coronary heart disease and hypertension. Garlic is also used today by some people for the prevention of lung cancer, prostate cancer, stomach cancer, rectal cancer and colon cancer."
+            },
+            {
+                "img": "/images/product-image/grocery/vegetable/Potato.jpeg",
+                "type": "VEGETABLE",
+                "name": "Potato",
+                "inStock": true,
+                "description": "The Potato is one of the most cultivated Products in the world. Its consumption is intended for human feeding in fresh. for cattle feeding  and as raw material for the food and agricalture processing  industries  such as chips, potato flakes, frozen potato etc. Potato plants have a law growing habit and bear white to purple flowers with yellow stamens. Any potato variety can also be propagated vegetatively by  planting pieces  of existing tubers, cut to include at least one eye."
+            },
+            {
+                "img": "/images/product-image/grocery/vegetable/Lemon.jpg",
+                "type": "VEGETABLE",
+                "name": "Lemon",
+                "inStock": true,
+                "description": "The lemon is a round, slightly elongated fruit, it has a strong and resistant skin, with an intense bright yellow colour. When it is totally ripe, giving off a special aroma when it is cut. Lemon is a type of citrus fruit. It contains high levels of citric acid. Due to their bitter taste, lemon fruit is not usually consumed fresh, it is used widely to make juice such as lemonade, as garnishes in cooking and as flavouring in cooking and baking."
+            },
+            {
+                "img": "/images/product-image/grocery/spices/Red Chillies.jpg",
+                "type": "SPICES",
+                "name": "Chilli",
+                "inStock": true,
+                "description": "Chilli is the dried ripe fruit of the genus capsicum. Capsicum annuum is an annual sub-shrub, the flowers of which are born singly and fruits usually pendant, which provide red pepper may be used whole or powdered. India is the largest producer of red chillies. It is really spicy and the intense heat is concentrated in the seeds."
+            },
+            {
+                "img": "/images/product-image/grocery/vegetable/Ginger.jpeg",
+                "type": "VEGETABLE",
+                "name": "Ginger",
+                "inStock": true,
+                "description": "The ginger plant has a thick, branched rhizome with a brown outer layer and yellow centre that has a spicy, citrusy aroma. Ginger provides value for humans that goes beyond simple utilitarian values, such as nutrition or medicine to touch upon the human internal desire for beauty and to experience a variety of tastes and textures. Fresh ginger is an essential ingredient in the preparation of oriental dishes, both sweet and savoury, from entrees to desserts. Ginger can be eaten fresh, dried and stored as a spice, or made into tablets, capsules and liquid extracts."
+            },
+            {
+                "img": "/images/product-image/grocery/vegetable/Pea.jpeg",
+                "type": "VEGETABLE",
+                "name": "Pea",
+                "inStock": true,
+                "description": "A pea is a most commonly green, occasionally golden yellow, or infrequently purple pod - shaped vegetable, widely grown as a cool season vegetable crop. The pea is most commonly the small spherical seed. Each pod contains several peas, which can be green or yellow."
             },
             {
                 "img": "/images/product-image/grocery/vegetable/Carrot.jpg",
                 "type": "VEGETABLE",
                 "name": "Carrot",
                 "inStock": true,
-                "description": "product details"
+                "description": "Carrot is a long, orange root vegetable. Carrots can be planted as tiny seeds and grown in a backyard garden. Carrots are used in salads and as relishes and are served as cooked vegetables and in stews and soups. Carrots are rich in vitamins, minerals and antioxidant compounds. As a part of a balanced diet, they can help  support immune function, reduce the risk of some cancers and promote wound healing and digestive health."
             },
             {
-                "img": "/images/product-image/grocery/vegetable/Ginger.jpg",
-                "type": "VEGETABLE",
-                "name": "Ginger",
+                "img": "/images/product-image/grocery/flours/Wheat Flour.jpg",
+                "type": "FLOUR",
+                "name": "Maida",
                 "inStock": true,
-                "description": "product details"
+                "description": "Maida is a white flour from the Indian subcontinent, made from wheat. Finely milled without any bran, refined, and bleached, it closely resembles cake flour. Maida is most commonly used in breads, cookies, pastries and cakes. It is used for making noodles, the outer coverings of momos, pasta, pizza crusts."
             },
             {
-                "img": "/images/product-image/grocery/vegetable/Raddish.jpg",
-                "type": "VEGETABLE",
-                "name": "Raddish",
+                "img": "/images/product-image/grocery/flours/Gram Flour.jpg",
+                "type": "FLOUR",
+                "name": "Besan",
                 "inStock": true,
-                "description": "product details"
+                "description": "Besan is gluten-free flour used in the preparation of several sweet and savoury snacks including the world-famous ladoo! The super-fine flour prepared from pure chana dal, has an earthy aroma and binding nature that makes it a key ingredient in the better used for preparing onion pakodas, traditional potato and some sweet dishes."
             },
             {
-                "img": "/images/product-image/grocery/vegetable/Red Radish.jpg",
-                "type": "VEGETABLE",
-                "name": "Red Raddish",
+                "img": "/images/product-image/grocery/flours/Corn Flour.jpg",
+                "type": "FLOUR",
+                "name": "Corn Flour",
                 "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/fruit/Banana.jpg",
-                "type": "FRUIT",
-                "name": "Banana",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/fruit/Guava.jpg",
-                "type": "FRUIT",
-                "name": "Guava",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/fruit/Mango.jpg",
-                "type": "FRUIT",
-                "name": "Mango",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/fruit/Raw Banana.jpg",
-                "type": "FRUIT",
-                "name": "Raw Banana",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/fruit/Dragon Fruit.jpg",
-                "type": "FRUIT",
-                "name": "Dragon Fruit",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/dairy products/Butter.jpg",
-                "type": "DAIRY PRODUCT",
-                "name": "Butter",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/dairy products/Ghee.jpg",
-                "type": "DAIRY PRODUCT",
-                "name": "Ghee",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/dairy products/Cheese.jpg",
-                "type": "DAIRY PRODUCT",
-                "name": "Cheese",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/dairy products/Paneer.jpg",
-                "type": "DAIRY PRODUCT",
-                "name": "Paneer",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/miscellaneous/Coconut.jpg",
-                "type": "MISCELLANEOUS",
-                "name": "Coconut",
-                "inStock": true,
-                "description": "product details"
-            },
-            {
-                "img": "/images/product-image/grocery/miscellaneous/Jaggery.jpg",
-                "type": "MISCELLANEOUS",
-                "name": "Jaggery",
-                "inStock": true,
-                "description": "product details"
+                "description": "Corn flour is a type of flour milled from dried whole corn kernels. Corn flour is very useful for gluten-free quick breads. Because corn flour contains no gluten, it must be blended with wheat flour when preparing yeasted breads. Corn flour is considered a whole grain flour because it contains the corn’s hull, germ and endosperm. Corn flour is usually yellow, but it can also be white or blue, depending on the variety of corn used."
             }
         ]
     }

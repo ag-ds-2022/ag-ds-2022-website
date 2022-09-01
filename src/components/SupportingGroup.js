@@ -1,15 +1,15 @@
 import React from 'react'
-import brandLogo1 from '../assets/images/brand-logo/1.jpg'
-import brandLogo2 from '../assets/images/brand-logo/2.jpg'
-import brandLogo3 from '../assets/images/brand-logo/3.jpg'
-import brandLogo4 from '../assets/images/brand-logo/4.jpg'
+// import brandLogo1 from '../assets/images/brand-logo/1.jpg'
+// import brandLogo2 from '../assets/images/brand-logo/2.jpg'
+// import brandLogo3 from '../assets/images/brand-logo/3.jpg'
+// import brandLogo4 from '../assets/images/brand-logo/4.jpg'
 
 
 function SupportingGroup() {
     return (
         <>
             <div className="container">
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-md-12">
                         <div className="section-title" style={{ textAlign: 'center' }}>
                             <h2 className="section-title-text">Supporting Group</h2>
@@ -41,7 +41,7 @@ function SupportingGroup() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

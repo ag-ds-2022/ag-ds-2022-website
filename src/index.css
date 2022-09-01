@@ -314,3 +314,7 @@ code {
   opacity: 0.6;
   color: #ffffff;
 }
+
+.carousel-image-custom{
+  max-height: 720px !important;
+}

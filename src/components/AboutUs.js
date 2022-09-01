@@ -15,8 +15,7 @@ function AboutUs() {
     const stickNavbar = () => {
         if (window !== undefined) {
             let windowHeight = window.scrollY;
-            console.log(windowHeight);
-            windowHeight > 250 ? setAnimated('owl-item') : setAnimated('');
+            windowHeight > 250 && window.innerWidth > 991 ? setAnimated('owl-item') : setAnimated('');
         }
     };
 
@@ -75,15 +74,15 @@ function AboutUs() {
                     </div>
                 </section>
                 <section className="mb-4">
-                    <section class="ftco-section">
-                        <div class="container">
-                            <div class="row no-gutters ftco-services">
-                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-                                    <div class="media block-6 services mb-md-0 mb-4">
-                                        <div class="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
-                                            <span class="flaticon-shipped"></span>
+                    <section className="ftco-section">
+                        <div className="container">
+                            <div className="row no-gutters ftco-services">
+                                <div className="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div className="media block-6 services mb-md-0 mb-4">
+                                        <div className="icon bg-color-1 active d-flex justify-content-center align-items-center mb-2">
+                                            <span className="flaticon-shipped"></span>
                                         </div>
-                                        <div class="media-body">
+                                        <div className="media-body">
                                             <div className="single-static-meta">
                                                 <h4 className="font-weight-bold">Fast Shipping</h4>
                                                 <p>Based on shipping type</p>
@@ -91,12 +90,12 @@ function AboutUs() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-                                    <div class="media block-6 services mb-md-0 mb-4">
-                                        <div class="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
-                                            <span class="flaticon-quality"></span>
+                                <div className="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div className="media block-6 services mb-md-0 mb-4">
+                                        <div className="icon bg-color-2 d-flex justify-content-center align-items-center mb-2">
+                                            <span className="flaticon-quality"></span>
                                         </div>
-                                        <div class="media-body">
+                                        <div className="media-body">
                                             <div className="single-static-meta">
                                                 <h4 className="font-weight-bold">Superior quality</h4>
                                                 <p>Quality products</p>
@@ -104,12 +103,12 @@ function AboutUs() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-                                    <div class="media block-6 services mb-md-0 mb-4">
-                                        <div class="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
-                                            <span class="flaticon-payment"></span>
+                                <div className="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div className="media block-6 services mb-md-0 mb-4">
+                                        <div className="icon bg-color-3 d-flex justify-content-center align-items-center mb-2">
+                                            <span className="flaticon-payment"></span>
                                         </div>
-                                        <div class="media-body">
+                                        <div className="media-body">
                                             <div className="single-static-meta">
                                                 <h4 className="font-weight-bold">100% Payment Secure</h4>
                                                 <p>Your payment are safe with us.</p>
@@ -117,12 +116,12 @@ function AboutUs() {
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-3 text-center d-flex align-self-stretch ftco-animate">
-                                    <div class="media block-6 services mb-md-0 mb-4">
-                                        <div class="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
-                                            <span class="flaticon-support"></span>
+                                <div className="col-md-3 text-center d-flex align-self-stretch ftco-animate">
+                                    <div className="media block-6 services mb-md-0 mb-4">
+                                        <div className="icon bg-color-4 d-flex justify-content-center align-items-center mb-2">
+                                            <span className="flaticon-support"></span>
                                         </div>
-                                        <div class="media-body">
+                                        <div className="media-body">
                                             <div className="single-static-meta">
                                                 <h4 className="font-weight-bold">Support 24/7</h4>
                                                 <p>Contact us 24 hours a day</p>

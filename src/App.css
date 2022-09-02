@@ -192,12 +192,148 @@ a.nav-link:hover {
         line-height: 30px;
         font-size: 11px;
     }
+
+    .about-left-image {
+        max-height: 400px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .carousel-caption {
+        transform: translate(0%, -72%);
+    }
+
+    .about-left-image {
+        max-height: 360px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel-caption {
+        transform: translate(0%, -72%);
+    }
+
+    .carousel-caption h1 {
+        font-size: 22px;
+        margin-bottom: 4px;
+    }
+
+    .carousel-caption p {
+        font-size: 13px;
+        margin-bottom: 0;
+        line-height: 10px;
+    }
+
+    .section-title-text{
+        font-size: 30px !important;
+    }
+
+    .mt-60px {
+        margin-top: 40px !important;
+    }
+
+    .mb-30px{
+        margin-bottom: 18px !important;
+    }
+
+    .about-left-image {
+        max-height: 280px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-content h2{
+        font-size: 22px !important;
+    }
+
+    .about-us-service-text{
+        font-size: 12px;
+    }
+
+    .about-text{
+        font-size: 14px;
+    }
+
+    .ftco-services .services .icon{
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .about-us-service-text-header{
+        font-size: 18px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
+
+    .shop-top-bar {
+        padding: 10px 6px !important;
+    }
+
     .carousel-caption h1 {
-        font-size: 18px;
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
         margin-bottom: 0;
+        line-height: 10px;
+    }
+
+    .carousel-caption {
+        transform: translate(0%, 28%);
+        top: 0 !important;
+    }
+
+    .section-title-text{
+        font-size: 30px !important;
+    }
+
+    .mt-60px {
+        margin-top: 40px !important;
+    }
+
+    .mb-30px{
+        margin-bottom: 18px !important;
+    }
+
+    .about-left-image {
+        max-height: 280px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-content h2{
+        font-size: 22px !important;
+    }
+
+    .about-us-service-text{
+        font-size: 12px;
+    }
+
+    .about-text{
+        font-size: 14px;
+    }
+
+    .ftco-services .services .icon{
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .about-us-service-text-header{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel-caption h1 {
+        font-size: 16px;
+        margin-bottom: 4px;
     }
 
     .carousel-caption p {
@@ -205,19 +341,51 @@ a.nav-link:hover {
         margin-bottom: 0;
         line-height: 10px;
     }
-}
 
-@media only screen and (max-width: 600px) {
     .carousel-caption {
-        transform: translate(0%, -80%);
-    }
-}
-
-@media only screen and (max-width: 400px) {
-    .carousel-caption {
-        transform: translate(0%, 25%);
+        transform: translate(0%, 28%);
         top: 0 !important;
     }
+
+    .section-title-text{
+        font-size: 30px !important;
+    }
+
+    .mt-60px {
+        margin-top: 40px !important;
+    }
+
+    .mb-30px{
+        margin-bottom: 18px !important;
+    }
+
+    .about-left-image {
+        max-height: 280px !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-content h2{
+        font-size: 22px !important;
+    }
+
+    .about-us-service-text{
+        font-size: 12px;
+    }
+
+    .about-text{
+        font-size: 14px;
+    }
+
+    .ftco-services .services .icon{
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+    .about-us-service-text-header{
+        font-size: 18px;
+    }
+
 }
 
 /* ============ Product Listing ============= */
@@ -273,6 +441,16 @@ input.in-stock {
         top: 0px !important;
         margin-top: 0px !important;
     }
+
+
+    .navbar .container{
+        justify-content: space-between !important;
+    }
+
+    .navbar-container-custom{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
 }
 
 .list-product{
@@ -295,6 +473,7 @@ input.in-stock {
         background-image: url("./assets/images/logo/banner-mobile.jpg");
         background-size:  100% 100%;
         background-repeat: no-repeat;
+        min-height: 490px;
     }
 }
 
@@ -303,5 +482,6 @@ input.in-stock {
         background-image: url("./assets/images/logo/banner-tablet.jpg");
         background-size:  100% 100%;
         background-repeat: no-repeat;
+        min-height: 490px;
     }
 }

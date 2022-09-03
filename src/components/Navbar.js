@@ -7,7 +7,7 @@ function Navbar() {
     const [stickyClass, setStickyClass] = useState("");
 
     const scrollToSection = (sectionId) => {
-        const yOffset = -40;
+        const yOffset = -100;
         const element = document.getElementById(sectionId);
         const y = element.getBoundingClientRect().y + window.pageYOffset + yOffset;
         window.scrollTo({ top: y, behavior: "smooth" });
@@ -51,7 +51,7 @@ function Navbar() {
                     <div className="collapse navbar-collapse justify-content-end mx-5" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item px-2 active">
-                                <Link to="/" className="nav-link fw-bold" href="#">
+                                <Link to="/" className="nav-link fw-bold" href="#" onClick={() => scrollToSection("home-section")}>
                                     Home
                                 </Link>
                             </li>

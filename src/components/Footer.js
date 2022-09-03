@@ -6,7 +6,7 @@ import flogo from '../assets/images/logo/flogo.png'
 function Footer() {
 
   const scrollToSection = (sectionId) => {
-    const yOffset = -40;
+    const yOffset = -100;
     const element = document.getElementById(sectionId);
     const y = element.getBoundingClientRect().y + window.pageYOffset + yOffset;
     window.scrollTo({ top: y, behavior: 'smooth' });

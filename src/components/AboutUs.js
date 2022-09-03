@@ -46,33 +46,25 @@ function AboutUs() {
                             <div className={`col-lg-6 active ${animated}`}>
                                 <div className="about-content about-us-text-content">
                                     <p className={`about-title animated`}>
-                                        <h2>Welcome To Sarvopari Exim</h2>
+                                        <h2>Welcome To Shipline Exim</h2>
                                     </p>
                                     <p className={`mb-30px about-text animated`}>
-                                        Sarvopari Exim is an Indian export and import company. We export grocery
-                                        products, different clothing items, and diamonds. We at Sarvopari Exim give
-                                        assurance for choosing the best grocery items, Clothing items, and superior
-                                        quality diamonds to export in the different parts of the world.
+                                        Shipline Exim is an Indian export and import company. We export grocery products. We give assurance for choosing the best grocery items to export to the different parts of the world.
                                     </p>
                                     <p className={`mb-30px about-text animated`}>
                                         We export farming products and spices with assurance for the farm-fresh spices,
                                         pulses, vegetables, fruits, dairy products, and other items. That natural
                                         farming product increases the taste of cooked food and gives the real Indian
                                         taste. Full of minerals, vitamins, proteins, and natural taste, we guarantee to
-                                        give you the best! Also, we supply premium quality of cloth for men, women, and
-                                        children like a shirt, t-shirt, jeans, formal cloth as well fabric of different
-                                        clothing. In addition, we supply handloom products worldwide. Sarvopari Exim
-                                        recently started an export polished and unpolished(rough) diamonds with superior
-                                        quality worldwide. Our diamonds have an excellent cut and extract maximum
-                                        brilliance.
+                                        give you the best!
                                     </p>
                                     <p className={`about-text animated`}>
-                                        We at Sarvopari Exim supply premium quality products to the distributors and
+                                        We at Shipline Exim supply premium quality products to the distributors and
                                         importers for the retail market, and directly to the food service industry. We
                                         take pride in providing and managing a sustainable supply chain solution,
                                         connecting Indian farmers and manufacturers with rewarding global markets for
                                         quality food products. We take pride in our customer service, and our
-                                        well-qualified team ensures uncompromised satisfaction and peace of mind across
+                                        well-qualified team ensures uncompromising satisfaction and peace of mind across
                                         the supply chain.
                                     </p>
                                 </div>

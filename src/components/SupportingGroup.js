@@ -35,7 +35,7 @@ function SupportingGroup() {
                                     <a href="http://kalpayita.com/"><img src={brandLogo4} alt="" /></a>
                                 </div>
                                 <div className="brand-slider-item">
-                                    <a href="index.html#"><img src="https://sarvopari.in/assets/images/brand-logo/5.jpg" alt="" /></a>
+                                    <a href="index.html#"><img src="https://shiplineexim.com/assets/images/brand-logo/5.jpg" alt="" /></a>
                                 </div>
 
                             </div>

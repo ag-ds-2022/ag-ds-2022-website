@@ -54,8 +54,8 @@ function Footer() {
                   <h4 className="footer-herading">Have a Questions?</h4>
                   <div className="s">
                     <ul>
-                      <li>+91 7567902536</li>
-                      <li>shiplineexim@gmail.com</li>
+                      <li><a href="tel:+917567902536">+91 7567902536</a></li>
+                      <li><a href = "mailto:shiplineexim@gmail.com?subject = Hey, Shipline Exim">shiplineexim@gmail.com</a></li>
                     </ul>
                   </div>
                 </div>

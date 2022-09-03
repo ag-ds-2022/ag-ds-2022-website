@@ -12,10 +12,10 @@ function Header() {
                         <img src={carousel1} className="d-block w-100 carousel-image-custom" alt="..." style={{ opacity: "0.8" }} />
                         <div className="carousel-caption d-md-block slider-animated-1">
                             <h1 className="animated">
-                                We Export<br />
-                                <strong>Precious Quality Grocery</strong>
+                            We Export<br />
+                                <strong>Precious Quality groceries</strong>
                             </h1>
-                            <p className="animated">Our aim is to uniquely catering to your every need.</p>
+                            <p className="animated">we aim to uniquely cater to your every need.</p>
                         </div>
                     </div>
                 </div>

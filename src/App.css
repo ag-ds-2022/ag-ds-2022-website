@@ -161,8 +161,7 @@ a.nav-link:hover {
 
 .carousel-caption h1,
 .carousel-caption p {
-    margin-bottom: 20px;
-    ;
+    margin-bottom: 12px;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -465,7 +464,7 @@ input.in-stock {
 }
 
 .about-left-image{
-    max-height: 520px;
+    max-height: 450px;
 }
 
 @media only screen and (max-width: 575px) {

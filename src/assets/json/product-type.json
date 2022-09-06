@@ -79,7 +79,72 @@
                 "name": "Corn Flour",
                 "inStock": true,
                 "description": "Corn flour is a type of flour milled from dried whole corn kernels. Corn flour is very useful for gluten-free quick breads. Because corn flour contains no gluten, it must be blended with wheat flour when preparing yeasted breads. Corn flour is considered a whole grain flour because it contains the corn’s hull, germ and endosperm. Corn flour is usually yellow, but it can also be white or blue, depending on the variety of corn used."
+            },
+
+
+
+
+
+
+            {
+                "img": "/images/product-image/grocery/pulses/Chickpea Splits.jpg",
+                "type": "PULSES",
+                "name": "Chickpea Splits",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/groundnut seed.jpg",
+                "type": "PULSES",
+                "name": "Groundnut Seed",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/White chickpea.jpg",
+                "type": "PULSES",
+                "name": "White Chickpea",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/Black chickpea.jpg",
+                "type": "PULSES",
+                "name": "Black Chickpea",
+                "inStock": true,
+                "description": "-"
+            },
+            
+            {
+                "img": "/images/product-image/grocery/pulses/Green gram.jpg",
+                "type": "PULSES",
+                "name": "Green Gram",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/Rice.jpg",
+                "type": "PULSES",
+                "name": "Rice",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/pigeon split.jpg",
+                "type": "PULSES",
+                "name": "Pigeon Split",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/flours/Whole Wheat Flour.jpg",
+                "type": "FLOUR",
+                "name": "Wheat Flour",
+                "inStock": true,
+                "description": "-"
             }
+            
+            
         ]
     }
 }

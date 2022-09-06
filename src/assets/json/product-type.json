@@ -81,9 +81,22 @@
                 "description": "Corn flour is a type of flour milled from dried whole corn kernels. Corn flour is very useful for gluten-free quick breads. Because corn flour contains no gluten, it must be blended with wheat flour when preparing yeasted breads. Corn flour is considered a whole grain flour because it contains the corn’s hull, germ and endosperm. Corn flour is usually yellow, but it can also be white or blue, depending on the variety of corn used."
             },
 
+            {
+                "img": "/images/product-image/grocery/flours/Whole Wheat Flour.jpg",
+                "type": "FLOUR",
+                "name": "Wheat Flour",
+                "inStock": true,
+                "description": "-"
+            }
+            
+        ]
+    },
 
-
-
+    "Pulses": {
+        "img": "/images/banner-image/3.jpg",
+        "banner-image": "/images/banner-image/cloth-heading.jpg",
+        "list": [
+            
 
 
             {
@@ -135,16 +148,10 @@
                 "name": "Pigeon Split",
                 "inStock": true,
                 "description": "-"
-            },
-            {
-                "img": "/images/product-image/grocery/flours/Whole Wheat Flour.jpg",
-                "type": "FLOUR",
-                "name": "Wheat Flour",
-                "inStock": true,
-                "description": "-"
             }
             
             
         ]
     }
+
 }

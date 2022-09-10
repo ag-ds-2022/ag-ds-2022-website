@@ -1,7 +1,7 @@
 {
     "Grocery": {
         "img": "/images/banner-image/1.jpg",
-        "banner-image": "/images/banner-image/cloth-heading.jpg",
+        "banner-image": "",
         "list": [
             {
                 "img": "/images/product-image/grocery/vegetable/Onion.jpeg",
@@ -79,6 +79,68 @@
                 "name": "Corn Flour",
                 "inStock": true,
                 "description": "Corn flour is a type of flour milled from dried whole corn kernels. Corn flour is very useful for gluten-free quick breads. Because corn flour contains no gluten, it must be blended with wheat flour when preparing yeasted breads. Corn flour is considered a whole grain flour because it contains the corn’s hull, germ and endosperm. Corn flour is usually yellow, but it can also be white or blue, depending on the variety of corn used."
+            }
+        ]
+    },
+    "Pulses" : {
+        "img": "/images/banner-image/front-pulses.jpg",
+        "banner-image": "",
+        "list" : [
+            {
+                "img": "/images/product-image/grocery/pulses/chickpea-splits.jpg",
+                "type": "Pulses",
+                "name": "Chickpea Splits",
+                "inStock": false,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/groundnut-seed.jpg",
+                "type": "Pulses",
+                "name": "Groundnut seed",
+                "inStock": false,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/kabuli-chana.jpg",
+                "type": "Pulses",
+                "name": "Kabuli Chana",
+                "inStock": false,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/kala-chana.jpg",
+                "type": "Pulses",
+                "name": "Kala Chana",
+                "inStock": false,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/mung-beans.png",
+                "type": "Pulses",
+                "name": "Mung Beans",
+                "inStock": false,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/rice.jpg",
+                "type": "Pulses",
+                "name": "Rice",
+                "inStock": false,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/toor-dal.jpg",
+                "type": "Pulses",
+                "name": "Toor Dal",
+                "inStock": false,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/grocery/pulses/wheat-flour.jpg",
+                "type": "Pulses",
+                "name": "Wheat Flour",
+                "inStock": false,
+                "description": "-"
             }
         ]
     }

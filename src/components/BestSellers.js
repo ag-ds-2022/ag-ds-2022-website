@@ -6,7 +6,19 @@ function BestSellers() {
     const [openModal, setOpenModal] = useState(false);
     const [selectedProduct, setSelectedProduct] = useState(null);
 
+    const [selectedImage, setSelectedImage] = useState(0);
+    const [allImages, setAllImage] = useState([]);
+
     const openProductDetailsModal = (product) => {
+        setSelectedImage(0);
+        let images = [];
+        if (product?.img) {
+            images.push(product?.img);
+        }
+        if (product?.imageList) {
+            images = [...images, ...product?.imageList];
+        }
+        setAllImage(images);
         setSelectedProduct(product);
         setOpenModal(true);
     };
@@ -21,7 +33,7 @@ function BestSellers() {
                                 <div className="col-md-12">
                                     <div className="section-title py-5" style={{ textAlign: "center" }}>
                                         <h2 className="section-title-text">
-                                        Best Selling <span>Products</span>
+                                            Best Selling <span>Products</span>
                                         </h2>
                                     </div>
                                 </div>
@@ -70,14 +82,19 @@ function BestSellers() {
                         </div>
                     </section>
 
-                    <Modal
-                        open={openModal}
-                        onClose={() => {
-                            setSelectedProduct(null);
-                            setOpenModal(false);
-                        }}
-                        product={selectedProduct}
-                    />
+                    {openModal && (
+                        <Modal
+                            open={openModal}
+                            onClose={() => {
+                                setSelectedProduct(null);
+                                setOpenModal(false);
+                            }}
+                            images={allImages}
+                            selectedImage={selectedImage}
+                            setSelectedImage={setSelectedImage}
+                            product={selectedProduct}
+                        />
+                    )}
                 </>
             ) : (
                 <></>

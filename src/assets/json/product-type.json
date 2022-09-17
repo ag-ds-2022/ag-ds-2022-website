@@ -1,4 +1,43 @@
 {
+    "Peanut Butter":{
+        "img": "/images/banner-image/3.jpg",
+        "banner-image": "",
+        "list": [
+            {
+                "img": "/images/product-image/PeanutButter/Chocolate-Creamy-1.jpg",
+                "imageList": ["/images/product-image/PeanutButter/Chocolate-Creamy-2.jpg"],
+                "type": "Peanut Butter",
+                "name": "Chocolate Creamy & Soft",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/PeanutButter/Chocolate-Crunchy-1.jpg",
+                "imageList": ["/images/product-image/PeanutButter/Chocolate-Crunchy-2.jpg"],
+                "type": "Peanut Butter",
+                "name": "Chocolate Crunchy & Sweetened",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/PeanutButter/classic-crunchy-1.jpg",
+                "imageList": ["/images/product-image/PeanutButter/classic-crunchy-2.jpg"],
+                "type": "Peanut Butter",
+                "name": "Classic Crunchy & Sweetened",
+                "inStock": true,
+                "description": "-"
+            },
+            {
+                "img": "/images/product-image/PeanutButter/Natural-Crunchy-1.jpg",
+                "imageList": ["/images/product-image/PeanutButter/Natural-Crunchy-2.jpg"],
+                "type": "Peanut Butter",
+                "name": "Natural Crunchy & Sweetened",
+                "inStock": true,
+                "description": "-"
+            }
+            
+        ]
+    },
     "Grocery": {
         "img": "/images/banner-image/1.jpg",
         "banner-image": "",

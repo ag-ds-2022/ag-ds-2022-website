@@ -1,7 +1,12 @@
 import React from "react";
+import { useState } from "react";
 
-const Modal = ({ open, onClose, product }) => {
+const Modal = ({ open, onClose, product, images, selectedImage, setSelectedImage }) => {
     if (!open) return null;
+    const clickOnImage = (index) => {
+        setSelectedImage(index);
+    };
+
     return (
         <div onClick={onClose} className="overlay">
             <div
@@ -33,7 +38,31 @@ const Modal = ({ open, onClose, product }) => {
                         </div>
                     </div>
                     <div className="modal-img-desc-container">
-                        <img className="modal-img" src={process.env.PUBLIC_URL + product?.img} alt={product?.name} />
+                        <div>
+                            <img
+                                className="modal-img"
+                                src={process.env.PUBLIC_URL + images[selectedImage]}
+                                alt={product?.name}
+                            />
+                            <div className="">
+                                {images && images.length ? (
+                                    images.map((image, index) => {
+                                        return (
+                                            <img
+                                                className={`modal-img-all ${
+                                                    index == selectedImage ? "selected-image" : ""
+                                                }`}
+                                                src={process.env.PUBLIC_URL + image}
+                                                alt={product?.name}
+                                                onClick={() => clickOnImage(index)}
+                                            />
+                                        );
+                                    })
+                                ) : (
+                                    <></>
+                                )}
+                            </div>
+                        </div>
                         <div className="modalRight">
                             <p className="content">{product?.description}</p>
                         </div>

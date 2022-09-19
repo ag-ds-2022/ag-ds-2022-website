@@ -4234,7 +4234,8 @@ a.quick_view:hover {
     font-weight: 700;
     color: #253237;
     font-size: 16px;
-    text-transform: capitalize
+    text-transform: capitalize;
+    padding-right: 60px;
 }
 
 .product-link:hover {

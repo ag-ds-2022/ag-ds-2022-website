@@ -1,41 +1,48 @@
 {
-    "Peanut Butter":{
+    "Peanut Butter": {
         "img": "/images/banner-image/3.jpg",
         "banner-image": "",
         "list": [
             {
-                "img": "/images/product-image/PeanutButter/Chocolate-Creamy-1.jpg",
-                "imageList": ["/images/product-image/PeanutButter/Chocolate-Creamy-2.jpg"],
+                "img": "/images/product-image/PeanutButter/Chocolate-Crunchy-1.jpg",
+                "imageList": [
+                    "/images/product-image/PeanutButter/Chocolate-Crunchy-2.jpg"
+                ],
                 "type": "Peanut Butter",
-                "name": "Chocolate Creamy & Soft",
+                "name": "BONCELL CHOCOLATE CRUNCHY & SWEETENED",
                 "inStock": true,
-                "description": "-"
+                "description": "• Dark Chocolate Peanut Butter \n • MEET YOUR FAVORITE CHOCOLATE SPREAD : BONCELL Chocolate Peanut Butter is infused with exotic dark chocolate for a delightful spread for your recipes. Experience a guilt-free way to include chocolate in your breakfast. \n • DELICIOUS FLAVOURS Choose between crunchy spreads of Boncell Chocolate Peanut Butter. \n • Relish the goodness of chocolate in a smooth spread or with peanut chunks to wow the taste buds. \n • Made with Roasted Peanuts, Choco Chips & Cocoa Powder - Non-GMO, Gluten-Free, Vegan \n • Nut butter is also a source of protein, which is essential for building and repairing muscles. Although peanut butter is not a complete protein, meaning it does not contain all of the essential amino acids the body needs, it does count toward a person's daily protein intake. \n • ENERGY BOOSTER TREAT: This vegan peanut butter is made with high-quality roasted peanuts and cocoa to energize you with a delicious treat. Peanuts serve as an excellent source of protein, fiber, & micronutrient."
             },
             {
-                "img": "/images/product-image/PeanutButter/Chocolate-Crunchy-1.jpg",
-                "imageList": ["/images/product-image/PeanutButter/Chocolate-Crunchy-2.jpg"],
+                "img": "/images/product-image/PeanutButter/Chocolate-Creamy-1.jpg",
+                "imageList": [
+                    "/images/product-image/PeanutButter/Chocolate-Creamy-2.jpg"
+                ],
                 "type": "Peanut Butter",
-                "name": "Chocolate Crunchy & Sweetened",
+                "name": "BONCELL CHOCOLATE CREAMY & SOFT ",
                 "inStock": true,
-                "description": "-"
+                "description": "•  Dark Chocolate Peanut Butter \n • MEET YOUR FAVORITE CHOCOLATE SPREAD: BONCELL Chocolate Peanut Butter is infused with exotic dark chocolate for a delightful spread for your recipes. Experience a guilt-free way to include chocolate in your breakfast. \n • DELICIOUS FLAVOURS Choose between creamy and Soft spreads of Boncell Chocolate Peanut Butter. \n • Relish the goodness of chocolate in a smooth spread or with peanut chunks to wow the taste buds. \n • Made with Roasted Peanuts, Choco Chips & Cocoa Powder - Non-GMO, Gluten-Free, Vegan. \n • Nut butter is also a source of protein, which is essential for building and repairing muscles. Although peanut butter is not a complete protein, meaning it does not contain all of the essential amino acids the body needs, it does count toward a person's daily protein intake. \n • ENERGY BOOSTER TREAT: This vegan peanut butter is made with high-quality roasted peanuts and cocoa to energize you with a delicious treat. Peanuts serve as an excellent source of protein, fiber, & micronutrient."
             },
             {
                 "img": "/images/product-image/PeanutButter/classic-crunchy-1.jpg",
-                "imageList": ["/images/product-image/PeanutButter/classic-crunchy-2.jpg"],
+                "imageList": [
+                    "/images/product-image/PeanutButter/classic-crunchy-2.jpg"
+                ],
                 "type": "Peanut Butter",
-                "name": "Classic Crunchy & Sweetened",
+                "name": "BONCELL CLASSIC CRUNCHY & SWEETENED",
                 "inStock": true,
-                "description": "-"
+                "description": "• PRE WORKOUT SUPPLEMENT/ENERGY BOOSTER: BONCELL Classic Peanut Butter Is A Ready To Eat Diet Food Packed With 600Kcal Energy / Serving. It's Free From Caffeine And Other Stimulants And Perfect For Dieters, Gym Freak and Health - Conscious People To Get An Energy And Hit For The Day. The Natural Fat, Along With Fiber And Protein Stabilize Insulin Levels And Ensure A Constant Energy Supply For Hours. \n • QUALITY SOURCE OF PROTEIN: BONCELL Classic Peanut Butter Provides 23g Of Protein Per Serving To Help And Support Your Body Building Goals And Keep Your Family Fit. High Protein Value Effectively Helps To Complete Your Daily Protein Intake And Makes It Great For Muscle Growth, Weight Loss / Weight Gain, And Overall Health. \n • BONCELL Classic Peanut Butter Made With High-Quality, Fresh, Delicious Peanuts. It Is Dairy-Free And Gluten-Free. Our Product Has No Flavor And Preservatives And Also Has Zero Trans Fat. It Contains Heart-Healthy Fats And Is A Good Source of Dietary Potassium. \n • Nut butter is also a protein source, essential for building and repairing muscles. Although peanut butter is not a complete protein — meaning it does not contain all of the essential amino acids the body needs — it does count toward a person's daily protein intake. \n • HIGH NUTRITION FOR ENTIRE FAMILY : Every Serving Of Healthy, Delicious And Nutritious Boncell Peanut Butter Classic Flavor Is Offers 6g Of Dietary fiber And 21g Of Carbs With Zero Cholesterol. It Is Rich In Essential Nutrients And Minerals. "
             },
             {
                 "img": "/images/product-image/PeanutButter/Natural-Crunchy-1.jpg",
-                "imageList": ["/images/product-image/PeanutButter/Natural-Crunchy-2.jpg"],
+                "imageList": [
+                    "/images/product-image/PeanutButter/Natural-Crunchy-2.jpg"
+                ],
                 "type": "Peanut Butter",
-                "name": "Natural Crunchy & Sweetened",
+                "name": "BONCELL NATURAL CRUNCHY & UNSWEETENED",
                 "inStock": true,
-                "description": "-"
+                "description": "• PRE WORKOUT SUPPLEMENT/ENERGY BOOSTER: BONCELL Natural Peanut Butter Is A Ready To Eat Diet Food Packed With 600Kcal Energy / Serving. It's Free From Caffeine And Other Stimulants And Perfect For Dieters, Gym Freak and Health - Conscious People To Get An Energy And Hit For The Day. The Natural Fat, Along With Fibre And Protein Stabilize Insulin Levels And Ensure A Constant Energy Supply For Hours. \n • HIGH NUTRITION FOR ENTIRE FAMILY: Every Serving Of Healthy, Delicious And Nutritious Boncell Peanut Butter Natural Flavour Offers 6g Of Dietary fiber And 21g Of Carbs With Zero Cholesterol. It Is Rich In Essential Nutrients And Minerals. \n • 10g of protein, 15g of Healthy Fats, 0g Trans Fat & 0mg Cholesterol per serving of 32g \n • Boncell Natural Peanut Butter comes in 2 variants: Natural Crunch/Creamy \n • Oil separation is a natural process, stir well before use. An Essential Ingredient In A Healthy Diet For Women, Men, And Kids. Maximum Shelf Life 9 Months "
             }
-            
         ]
     },
     "Grocery": {
@@ -121,10 +128,10 @@
             }
         ]
     },
-    "Pulses" : {
+    "Pulses": {
         "img": "/images/banner-image/front-pulses.jpg",
         "banner-image": "",
-        "list" : [
+        "list": [
             {
                 "img": "/images/product-image/grocery/pulses/chickpea-splits.jpg",
                 "type": "Pulses",

@@ -66,7 +66,7 @@ function Footer() {
                   <h4 className="footer-herading">Have a Questions?</h4>
                   <div className="s">
                     <ul>
-                      <li><a href="https://wa.me/917567902536" target="_blank">+91 7567902536</a></li>
+                      <li><a href="https://wa.me/917567902536" target="_blank">+91 7567902536</a> | <a href="https://wa.me/919409050004" target="_blank" className='text-nowrap'>+91 9409050004</a></li>
                       <li><a href="mailto:shiplineexim@gmail.com?subject = Hey, Shipline Exim">shiplineexim@gmail.com</a></li>
                     </ul>
                   </div>

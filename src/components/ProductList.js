@@ -64,6 +64,10 @@ function ProductList() {
         setOpenModal(true);
     };
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             {data && data?.bannerImage && (

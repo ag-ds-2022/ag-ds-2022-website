@@ -49,9 +49,8 @@ const Modal = ({ open, onClose, product, images, selectedImage, setSelectedImage
                                     images.map((image, index) => {
                                         return (
                                             <img
-                                                className={`modal-img-all ${
-                                                    index == selectedImage ? "selected-image" : ""
-                                                }`}
+                                                className={`modal-img-all ${index == selectedImage ? "selected-image" : ""
+                                                    }`}
                                                 src={process.env.PUBLIC_URL + image}
                                                 alt={product?.name}
                                                 onClick={() => clickOnImage(index)}

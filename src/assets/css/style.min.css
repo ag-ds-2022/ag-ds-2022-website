@@ -4236,6 +4236,7 @@ a.quick_view:hover {
     font-size: 16px;
     text-transform: capitalize;
     padding-right: 60px;
+    min-height: 36px;
 }
 
 .product-link:hover {

@@ -1,6 +1,16 @@
 {
     "bestSeller": [
         {
+            "img": "/images/product-image/PeanutButter/Chocolate-Crunchy-1.jpg",
+            "imageList": [
+                "/images/product-image/PeanutButter/Chocolate-Crunchy-2.jpg"
+            ],
+            "type": "Peanut Butter",
+            "name": "BONCELL CHOCOLATE CRUNCHY & SWEETENED",
+            "inStock": true,
+            "description": "• Dark Chocolate Peanut Butter \n • MEET YOUR FAVORITE CHOCOLATE SPREAD : BONCELL Chocolate Peanut Butter is infused with exotic dark chocolate for a delightful spread for your recipes. Experience a guilt-free way to include chocolate in your breakfast. \n • DELICIOUS FLAVOURS Choose between crunchy spreads of Boncell Chocolate Peanut Butter. \n • Relish the goodness of chocolate in a smooth spread or with peanut chunks to wow the taste buds. \n • Made with Roasted Peanuts, Choco Chips & Cocoa Powder - Non-GMO, Gluten-Free, Vegan \n • Nut butter is also a source of protein, which is essential for building and repairing muscles. Although peanut butter is not a complete protein, meaning it does not contain all of the essential amino acids the body needs, it does count toward a person's daily protein intake. \n • ENERGY BOOSTER TREAT: This vegan peanut butter is made with high-quality roasted peanuts and cocoa to energize you with a delicious treat. Peanuts serve as an excellent source of protein, fiber, & micronutrient."
+        },
+        {
             "img": "/images/product-image/grocery/vegetable/Onion.jpeg",
             "type": "VEGETABLE",
             "name": "Onion",
@@ -20,13 +30,6 @@
             "name": "Lemon",
             "inStock": true,
             "description": "The lemon is a round, slightly elongated fruit, it has a strong and resistant skin, with an intense bright yellow colour. When it is totally ripe, giving off a special aroma when it is cut. Lemon is a type of citrus fruit. It contains high levels of citric acid. Due to their bitter taste, lemon fruit is not usually consumed fresh, it is used widely to make juice such as lemonade, as garnishes in cooking and as flavouring in cooking and baking."
-        },
-        {
-            "img": "/images/product-image/grocery/vegetable/Ginger.jpeg",
-            "type": "VEGETABLE",
-            "name": "Ginger",
-            "inStock": true,
-            "description": "The ginger plant has a thick, branched rhizome with a brown outer layer and yellow centre that has a spicy, citrusy aroma. Ginger provides value for humans that goes beyond simple utilitarian values, such as nutrition or medicine to touch upon the human internal desire for beauty and to experience a variety of tastes and textures. Fresh ginger is an essential ingredient in the preparation of oriental dishes, both sweet and savoury, from entrees to desserts. Ginger can be eaten fresh, dried and stored as a spice, or made into tablets, capsules and liquid extracts."
         }
     ]
 }
